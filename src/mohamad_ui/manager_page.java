@@ -15,6 +15,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import static javax.swing.GroupLayout.Alignment.CENTER;
 import javax.swing.ImageIcon;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -57,7 +58,19 @@ public class manager_page extends javax.swing.JFrame {
     searchAbout.setBackground(Color.white);
     Border border = new LineBorder(Color.getHSBColor(88, 88, 88), 2, true);
      searchAbout.setBorder(border);
-   
+     
+     //add offer frame style
+     airportNameList.setBorder(null);
+     airportNameList.setBackground(Color.white);
+     
+     hotelNameList.setBorder(null);
+     hotelNameList.setBackground(Color.white);
+     
+     flightClassList.setBorder(null);
+     flightClassList.setBackground(Color.white);
+     
+     roomTypeList.setBorder(null);
+     roomTypeList.setBackground(Color.white);
 }
     
 
@@ -65,7 +78,34 @@ public class manager_page extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jFrame1 = new javax.swing.JFrame();
         jPanel2 = new javax.swing.JPanel();
+        closePanel = new javax.swing.JPanel();
+        close = new javax.swing.JLabel();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        AdditionalserviceidText = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        dateToText = new javax.swing.JFormattedTextField();
+        jLabel6 = new javax.swing.JLabel();
+        DestinationText = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        dateFromText = new javax.swing.JFormattedTextField();
+        jLabel8 = new javax.swing.JLabel();
+        FromText = new javax.swing.JTextField();
+        jLabel9 = new javax.swing.JLabel();
+        airportNameList = new javax.swing.JComboBox<>();
+        jLabel10 = new javax.swing.JLabel();
+        flightClassList = new javax.swing.JComboBox<>();
+        jLabel11 = new javax.swing.JLabel();
+        hotelNameList = new javax.swing.JComboBox<>();
+        jLabel12 = new javax.swing.JLabel();
+        roomTypeList = new javax.swing.JComboBox<>();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        offerDescriptionTextArea = new javax.swing.JTextArea();
+        jLabel13 = new javax.swing.JLabel();
+        addofferPanel = new javax.swing.JPanel();
+        addButton = new javax.swing.JLabel();
         header = new javax.swing.JPanel();
         minMaxCloseIcon = new javax.swing.JPanel();
         minButton = new javax.swing.JPanel();
@@ -85,7 +125,13 @@ public class manager_page extends javax.swing.JFrame {
         profilePicpanel = new javax.swing.JPanel();
         profilePicIcon = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        userName = new javax.swing.JLabel();
+        massegesAndButtons = new javax.swing.JPanel();
+        showProfileAndAddOffer = new javax.swing.JPanel();
+        showProfilePanel = new javax.swing.JPanel();
+        ShowProfileButton = new javax.swing.JLabel();
+        addOfferPanel = new javax.swing.JPanel();
+        addOfferButton = new javax.swing.JLabel();
         masseges = new javax.swing.JPanel();
         main = new javax.swing.JPanel();
         headerForMain = new javax.swing.JPanel();
@@ -106,6 +152,11 @@ public class manager_page extends javax.swing.JFrame {
         description = new javax.swing.JTextArea();
         offerGroup2 = new javax.swing.JPanel();
         offer4 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         offer5 = new javax.swing.JPanel();
         offer6 = new javax.swing.JPanel();
         offerGroup3 = new javax.swing.JPanel();
@@ -113,16 +164,215 @@ public class manager_page extends javax.swing.JFrame {
         offer8 = new javax.swing.JPanel();
         offer9 = new javax.swing.JPanel();
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
+        jFrame1.setAlwaysOnTop(true);
+        jFrame1.setMinimumSize(new java.awt.Dimension(500, 500));
+        jFrame1.setUndecorated(true);
+        jFrame1.setPreferredSize(new java.awt.Dimension(500, 400));
+        jFrame1.setResizable(false);
+
+        jPanel2.setBackground(new java.awt.Color(141, 221, 210));
+        jPanel2.setPreferredSize(new java.awt.Dimension(476, 30));
+        jPanel2.setLayout(new java.awt.BorderLayout());
+
+        closePanel.setBackground(new java.awt.Color(141, 221, 210));
+        closePanel.setPreferredSize(new java.awt.Dimension(30, 30));
+        closePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/close.png"))); // NOI18N
+        close.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                closeMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                closeMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                closeMouseExited(evt);
+            }
+        });
+        closePanel.add(close, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 30, 30));
+
+        jPanel2.add(closePanel, java.awt.BorderLayout.LINE_END);
+
+        jFrame1.getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_START);
+
+        jPanel8.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel4.setText("Additional service id:");
+
+        AdditionalserviceidText.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        AdditionalserviceidText.setPreferredSize(new java.awt.Dimension(100, 30));
+        AdditionalserviceidText.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AdditionalserviceidTextActionPerformed(evt);
+            }
+        });
+
+        jLabel5.setText("Date to:");
+
+        dateToText.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        dateToText.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(new java.text.SimpleDateFormat("22/12/2022"))));
+        dateToText.setMinimumSize(new java.awt.Dimension(100, 30));
+        dateToText.setPreferredSize(new java.awt.Dimension(100, 30));
+        dateToText.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dateToTextActionPerformed(evt);
+            }
+        });
+
+        jLabel6.setText("Destination:");
+
+        DestinationText.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        DestinationText.setMinimumSize(new java.awt.Dimension(100, 30));
+        DestinationText.setPreferredSize(new java.awt.Dimension(100, 30));
+
+        jLabel7.setText("Date From:");
+
+        dateFromText.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        dateFromText.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(new java.text.SimpleDateFormat("22/12/2022"))));
+        dateFromText.setPreferredSize(new java.awt.Dimension(100, 30));
+
+        jLabel8.setText("From:");
+
+        FromText.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        FromText.setPreferredSize(new java.awt.Dimension(100, 30));
+
+        jLabel9.setText("Airport Name:");
+
+        airportNameList.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        airportNameList.setBorder(null);
+
+        jLabel10.setText("Flight class:");
+
+        flightClassList.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jLabel11.setText("Hotel name: ");
+
+        hotelNameList.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jLabel12.setText("Room type:");
+
+        roomTypeList.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        roomTypeList.setPreferredSize(new java.awt.Dimension(100, 25));
+
+        offerDescriptionTextArea.setColumns(20);
+        offerDescriptionTextArea.setRows(5);
+        jScrollPane1.setViewportView(offerDescriptionTextArea);
+
+        jLabel13.setText("Offer description");
+
+        addofferPanel.setBackground(new java.awt.Color(141, 221, 210));
+        addofferPanel.setPreferredSize(new java.awt.Dimension(150, 30));
+        addofferPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        addButton.setBackground(new java.awt.Color(141, 221, 210));
+        addButton.setForeground(new java.awt.Color(255, 255, 255));
+        addButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/icons8-add-new-32.png"))); // NOI18N
+        addButton.setText("        Add offer  ");
+        addButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                addButtonMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                addButtonMouseExited(evt);
+            }
+        });
+        addofferPanel.add(addButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 32));
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel12)
+                    .addComponent(jLabel10)
+                    .addComponent(jLabel8)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel6))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addComponent(flightClassList, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel11))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(AdditionalserviceidText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(DestinationText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(42, 42, 42)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel5)
+                                    .addComponent(jLabel7)))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addComponent(FromText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel9)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(dateToText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(dateFromText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(airportNameList, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(hotelNameList, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(roomTypeList, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(26, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(118, 118, 118))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel13)
+                        .addGap(196, 196, 196))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(addofferPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(155, 155, 155))))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(AdditionalserviceidText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5)
+                    .addComponent(dateToText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(DestinationText, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7)
+                    .addComponent(dateFromText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel8)
+                    .addComponent(FromText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9)
+                    .addComponent(airportNameList, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(flightClassList, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel10)
+                    .addComponent(jLabel11)
+                    .addComponent(hotelNameList, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel12)
+                    .addComponent(roomTypeList, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel13)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(addofferPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(22, 22, 22))
         );
+
+        jFrame1.getContentPane().add(jPanel8, java.awt.BorderLayout.CENTER);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -160,6 +410,7 @@ public class manager_page extends javax.swing.JFrame {
         maxButton.setBackground(new java.awt.Color(141, 221, 210));
 
         maxIcone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/full_screen_32px.png"))); // NOI18N
+        maxIcone.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         maxIcone.setPreferredSize(new java.awt.Dimension(50, 50));
         maxIcone.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -193,6 +444,7 @@ public class manager_page extends javax.swing.JFrame {
         closeButton.setBackground(new java.awt.Color(141, 221, 210));
 
         closeIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/close.png"))); // NOI18N
+        closeIcon.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         closeIcon.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 closeIconMouseClicked(evt);
@@ -227,6 +479,7 @@ public class manager_page extends javax.swing.JFrame {
 
         getContentPane().add(header, java.awt.BorderLayout.PAGE_START);
 
+        menu.setBackground(new java.awt.Color(141, 221, 210));
         menu.setPreferredSize(new java.awt.Dimension(250, 501));
         menu.setLayout(new java.awt.BorderLayout());
 
@@ -254,6 +507,7 @@ public class manager_page extends javax.swing.JFrame {
         menuback.setLayout(new java.awt.BorderLayout());
 
         IconMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/back_32px.png"))); // NOI18N
+        IconMenu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         IconMenu.setMaximumSize(new java.awt.Dimension(100, 100));
         IconMenu.setName(""); // NOI18N
         IconMenu.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -273,10 +527,10 @@ public class manager_page extends javax.swing.JFrame {
 
         menu.add(menuIcon, java.awt.BorderLayout.LINE_START);
 
-        menuHide.setBackground(new java.awt.Color(204, 255, 255));
+        menuHide.setBackground(new java.awt.Color(141, 221, 210));
         menuHide.setLayout(new java.awt.BorderLayout());
 
-        prfileInfo.setBackground(new java.awt.Color(255, 255, 255));
+        prfileInfo.setBackground(new java.awt.Color(141, 221, 210));
         prfileInfo.setPreferredSize(new java.awt.Dimension(200, 160));
         prfileInfo.setLayout(new java.awt.BorderLayout());
 
@@ -319,14 +573,66 @@ public class manager_page extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(141, 221, 210));
 
-        jLabel1.setBackground(new java.awt.Color(51, 102, 255));
-        jLabel1.setForeground(new java.awt.Color(51, 102, 255));
-        jLabel1.setText("Update");
-        jPanel1.add(jLabel1);
+        userName.setBackground(new java.awt.Color(255, 255, 255));
+        userName.setForeground(new java.awt.Color(255, 255, 255));
+        userName.setText("Mohamad Isa Moghrabi");
+        jPanel1.add(userName);
 
         prfileInfo.add(jPanel1, java.awt.BorderLayout.CENTER);
 
         menuHide.add(prfileInfo, java.awt.BorderLayout.PAGE_START);
+
+        massegesAndButtons.setBackground(new java.awt.Color(141, 221, 210));
+        massegesAndButtons.setLayout(new java.awt.BorderLayout());
+
+        showProfileAndAddOffer.setBackground(new java.awt.Color(141, 221, 210));
+        showProfileAndAddOffer.setLayout(new java.awt.GridLayout(2, 0, 0, 10));
+
+        showProfilePanel.setBackground(new java.awt.Color(255, 255, 255));
+        showProfilePanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(141, 221, 210), 2));
+        showProfilePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        ShowProfileButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/icons8-user-menu-female-32.png"))); // NOI18N
+        ShowProfileButton.setText("            Show Profile");
+        ShowProfileButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        ShowProfileButton.setPreferredSize(new java.awt.Dimension(200, 45));
+        ShowProfileButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                ShowProfileButtonMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                ShowProfileButtonMouseExited(evt);
+            }
+        });
+        showProfilePanel.add(ShowProfileButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        showProfileAndAddOffer.add(showProfilePanel);
+
+        addOfferPanel.setBackground(new java.awt.Color(255, 255, 255));
+        addOfferPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(141, 221, 210), 2));
+        addOfferPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        addOfferButton.setBackground(new java.awt.Color(255, 255, 255));
+        addOfferButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/icons8-add-new-32.png"))); // NOI18N
+        addOfferButton.setText("            Add Offer");
+        addOfferButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        addOfferButton.setPreferredSize(new java.awt.Dimension(200, 45));
+        addOfferButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                addOfferButtonMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                addOfferButtonMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                addOfferButtonMouseExited(evt);
+            }
+        });
+        addOfferPanel.add(addOfferButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        showProfileAndAddOffer.add(addOfferPanel);
+
+        massegesAndButtons.add(showProfileAndAddOffer, java.awt.BorderLayout.PAGE_START);
 
         masseges.setBackground(new java.awt.Color(141, 221, 210));
 
@@ -338,10 +644,12 @@ public class manager_page extends javax.swing.JFrame {
         );
         massegesLayout.setVerticalGroup(
             massegesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 505, Short.MAX_VALUE)
+            .addGap(0, 416, Short.MAX_VALUE)
         );
 
-        menuHide.add(masseges, java.awt.BorderLayout.CENTER);
+        massegesAndButtons.add(masseges, java.awt.BorderLayout.CENTER);
+
+        menuHide.add(massegesAndButtons, java.awt.BorderLayout.CENTER);
 
         menu.add(menuHide, java.awt.BorderLayout.CENTER);
 
@@ -383,28 +691,27 @@ public class manager_page extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/icons8-search-30.png"))); // NOI18N
         jLabel3.setToolTipText("");
+        jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout submitSearchLayout = new javax.swing.GroupLayout(submitSearch);
         submitSearch.setLayout(submitSearchLayout);
         submitSearchLayout.setHorizontalGroup(
             submitSearchLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(submitSearchLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel3)
-                .addContainerGap(14, Short.MAX_VALUE))
+            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
         submitSearchLayout.setVerticalGroup(
             submitSearchLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, submitSearchLayout.createSequentialGroup()
-                .addContainerGap(26, Short.MAX_VALUE)
-                .addComponent(jLabel3)
-                .addGap(14, 14, 14))
+                .addContainerGap(17, Short.MAX_VALUE)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         searchLayout.add(submitSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, -20, 50, 70));
 
         searchAbout.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Date", "From", "To", "Travelling Way", "Price" }));
         searchAbout.setBorder(null);
+        searchAbout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         searchAbout.setPreferredSize(new java.awt.Dimension(10, 20));
         searchAbout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -426,7 +733,7 @@ public class manager_page extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 485, Short.MAX_VALUE)
+            .addGap(0, 764, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -482,17 +789,24 @@ public class manager_page extends javax.swing.JFrame {
 
         offer4.setBackground(new java.awt.Color(255, 255, 255));
         offer4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        offer4.setMinimumSize(new java.awt.Dimension(250, 120));
+        offer4.setPreferredSize(new java.awt.Dimension(200, 120));
+        offer4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout offer4Layout = new javax.swing.GroupLayout(offer4);
-        offer4.setLayout(offer4Layout);
-        offer4Layout.setHorizontalGroup(
-            offer4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 153, Short.MAX_VALUE)
-        );
-        offer4Layout.setVerticalGroup(
-            offer4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 163, Short.MAX_VALUE)
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
+        offer4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 130, 120));
+
+        jLabel14.setText("Price:");
+        offer4.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 110, 30));
+
+        jLabel15.setText("Date:");
+        offer4.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, 110, 30));
+
+        jLabel16.setText("From:");
+        offer4.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 86, 110, 30));
+
+        jLabel17.setText("Destination:");
+        offer4.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 170, 30));
 
         offerGroup2.add(offer4);
 
@@ -503,11 +817,11 @@ public class manager_page extends javax.swing.JFrame {
         offer5.setLayout(offer5Layout);
         offer5Layout.setHorizontalGroup(
             offer5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 153, Short.MAX_VALUE)
+            .addGap(0, 246, Short.MAX_VALUE)
         );
         offer5Layout.setVerticalGroup(
             offer5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 163, Short.MAX_VALUE)
+            .addGap(0, 166, Short.MAX_VALUE)
         );
 
         offerGroup2.add(offer5);
@@ -519,11 +833,11 @@ public class manager_page extends javax.swing.JFrame {
         offer6.setLayout(offer6Layout);
         offer6Layout.setHorizontalGroup(
             offer6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 153, Short.MAX_VALUE)
+            .addGap(0, 246, Short.MAX_VALUE)
         );
         offer6Layout.setVerticalGroup(
             offer6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 163, Short.MAX_VALUE)
+            .addGap(0, 166, Short.MAX_VALUE)
         );
 
         offerGroup2.add(offer6);
@@ -540,11 +854,11 @@ public class manager_page extends javax.swing.JFrame {
         offer7.setLayout(offer7Layout);
         offer7Layout.setHorizontalGroup(
             offer7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 153, Short.MAX_VALUE)
+            .addGap(0, 246, Short.MAX_VALUE)
         );
         offer7Layout.setVerticalGroup(
             offer7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 163, Short.MAX_VALUE)
+            .addGap(0, 166, Short.MAX_VALUE)
         );
 
         offerGroup3.add(offer7);
@@ -556,11 +870,11 @@ public class manager_page extends javax.swing.JFrame {
         offer8.setLayout(offer8Layout);
         offer8Layout.setHorizontalGroup(
             offer8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 153, Short.MAX_VALUE)
+            .addGap(0, 246, Short.MAX_VALUE)
         );
         offer8Layout.setVerticalGroup(
             offer8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 163, Short.MAX_VALUE)
+            .addGap(0, 166, Short.MAX_VALUE)
         );
 
         offerGroup3.add(offer8);
@@ -572,11 +886,11 @@ public class manager_page extends javax.swing.JFrame {
         offer9.setLayout(offer9Layout);
         offer9Layout.setHorizontalGroup(
             offer9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 153, Short.MAX_VALUE)
+            .addGap(0, 246, Short.MAX_VALUE)
         );
         offer9Layout.setVerticalGroup(
             offer9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 163, Short.MAX_VALUE)
+            .addGap(0, 166, Short.MAX_VALUE)
         );
 
         offerGroup3.add(offer9);
@@ -622,7 +936,7 @@ public class manager_page extends javax.swing.JFrame {
     }
     
     private void closeIconMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeIconMouseEntered
-       changecolor(closeButton, new Color(153,153,153));
+       changecolor(closeButton, new Color(255,0,0));
     }//GEN-LAST:event_closeIconMouseEntered
 
     private void closeIconMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeIconMouseExited
@@ -704,6 +1018,56 @@ public class manager_page extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_searchAboutActionPerformed
 
+    private void ShowProfileButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ShowProfileButtonMouseEntered
+         changecolor(showProfilePanel, new Color(204,204,204));
+    }//GEN-LAST:event_ShowProfileButtonMouseEntered
+
+    private void ShowProfileButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ShowProfileButtonMouseExited
+        changecolor(showProfilePanel, new Color(255,255,255));
+    }//GEN-LAST:event_ShowProfileButtonMouseExited
+
+    private void addOfferButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addOfferButtonMouseEntered
+        changecolor(addOfferPanel, new Color(204,204,204));
+    }//GEN-LAST:event_addOfferButtonMouseEntered
+
+    private void addOfferButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addOfferButtonMouseExited
+        changecolor(addOfferPanel, new Color(255,255,255));
+    }//GEN-LAST:event_addOfferButtonMouseExited
+
+    private void addOfferButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addOfferButtonMouseClicked
+         jFrame1.setVisible(true);
+         
+        
+    }//GEN-LAST:event_addOfferButtonMouseClicked
+
+    private void dateToTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dateToTextActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dateToTextActionPerformed
+
+    private void AdditionalserviceidTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdditionalserviceidTextActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AdditionalserviceidTextActionPerformed
+
+    private void closeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeMouseClicked
+         jFrame1.setVisible(false);
+    }//GEN-LAST:event_closeMouseClicked
+
+    private void closeMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeMouseEntered
+        changecolor(closePanel, new Color(255,0,0));
+    }//GEN-LAST:event_closeMouseEntered
+
+    private void closeMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeMouseExited
+        changecolor(closePanel, new Color(141,221,210));
+    }//GEN-LAST:event_closeMouseExited
+
+    private void addButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseEntered
+        changecolor(addofferPanel, new Color(204,204,204));
+    }//GEN-LAST:event_addButtonMouseEntered
+
+    private void addButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseExited
+        changecolor(addofferPanel, new Color(141,221,210));
+    }//GEN-LAST:event_addButtonMouseExited
+
     /**
      * @param args the command line arguments
      */
@@ -741,24 +1105,57 @@ public class manager_page extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField AdditionalserviceidText;
+    private javax.swing.JTextField DestinationText;
+    private javax.swing.JTextField FromText;
     private javax.swing.JLabel IconMenu;
+    private javax.swing.JLabel ShowProfileButton;
+    private javax.swing.JLabel addButton;
+    private javax.swing.JLabel addOfferButton;
+    private javax.swing.JPanel addOfferPanel;
+    private javax.swing.JPanel addofferPanel;
+    private javax.swing.JComboBox<String> airportNameList;
+    private javax.swing.JLabel close;
     private javax.swing.JPanel closeButton;
     private javax.swing.JLabel closeIcon;
+    private javax.swing.JPanel closePanel;
+    private javax.swing.JFormattedTextField dateFromText;
+    private javax.swing.JFormattedTextField dateToText;
     private javax.swing.JTextArea description;
+    private javax.swing.JComboBox<String> flightClassList;
     private javax.swing.JPanel header;
     private javax.swing.JPanel headerForMain;
+    private javax.swing.JComboBox<String> hotelNameList;
+    private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPanel linemenu;
     private javax.swing.JPanel main;
     private javax.swing.JPanel masseges;
+    private javax.swing.JPanel massegesAndButtons;
     private javax.swing.JPanel maxButton;
     private javax.swing.JLabel maxIcone;
     private javax.swing.JPanel menu;
@@ -774,6 +1171,7 @@ public class manager_page extends javax.swing.JFrame {
     private javax.swing.JPanel offer7;
     private javax.swing.JPanel offer8;
     private javax.swing.JPanel offer9;
+    private javax.swing.JTextArea offerDescriptionTextArea;
     private javax.swing.JPanel offerGroup1;
     private javax.swing.JPanel offerGroup2;
     private javax.swing.JPanel offerGroup3;
@@ -782,12 +1180,16 @@ public class manager_page extends javax.swing.JFrame {
     private javax.swing.JLabel profilePicIcon;
     private javax.swing.JPanel profilePicpanel;
     private javax.swing.JPanel profilepiclayout;
+    private javax.swing.JComboBox<String> roomTypeList;
     private javax.swing.JScrollPane scroll;
     private javax.swing.JComboBox<String> searchAbout;
     private javax.swing.JPanel searchLayout;
     private javax.swing.JPanel searchPosition;
     private javax.swing.JTextField searchText;
+    private javax.swing.JPanel showProfileAndAddOffer;
+    private javax.swing.JPanel showProfilePanel;
     private javax.swing.JPanel submitSearch;
+    private javax.swing.JLabel userName;
     // End of variables declaration//GEN-END:variables
 
     
