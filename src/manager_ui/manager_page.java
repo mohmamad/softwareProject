@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package mohamad_ui;
+package manager_ui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -167,7 +167,6 @@ public class manager_page extends javax.swing.JFrame {
         jFrame1.setAlwaysOnTop(true);
         jFrame1.setMinimumSize(new java.awt.Dimension(500, 500));
         jFrame1.setUndecorated(true);
-        jFrame1.setPreferredSize(new java.awt.Dimension(500, 400));
         jFrame1.setResizable(false);
 
         jPanel2.setBackground(new java.awt.Color(141, 221, 210));
@@ -543,7 +542,6 @@ public class manager_page extends javax.swing.JFrame {
 
         profilePicIcon.setBackground(new java.awt.Color(141, 221, 210));
         profilePicIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/Capture5.PNG"))); // NOI18N
-        profilePicIcon.setPreferredSize(new java.awt.Dimension(124, 124));
         profilePicIcon.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 profilePicIconMouseEntered(evt);
