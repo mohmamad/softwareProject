@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package mohamad_ui;
+package manager_ui;
 
 /**
  *
  * @author pc
  */
-public class Mohamad_ui {
+public class manager_ui {
 
     /**
      * @param args the command line arguments
