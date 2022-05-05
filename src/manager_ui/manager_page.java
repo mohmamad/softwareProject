@@ -71,6 +71,8 @@ public class manager_page extends javax.swing.JFrame {
      
      roomTypeList.setBorder(null);
      roomTypeList.setBackground(Color.white);
+     
+
 }
     
 
@@ -142,6 +144,34 @@ public class manager_page extends javax.swing.JFrame {
         addAirportButton1 = new javax.swing.JLabel();
         airportAddressText = new javax.swing.JTextField();
         ticketClassText = new javax.swing.JTextField();
+        editOffer = new javax.swing.JFrame();
+        jPanel151 = new javax.swing.JPanel();
+        closePanel3 = new javax.swing.JPanel();
+        close3 = new javax.swing.JLabel();
+        jPanel152 = new javax.swing.JPanel();
+        jLabel104 = new javax.swing.JLabel();
+        AdditionalserviceidText1 = new javax.swing.JTextField();
+        jLabel105 = new javax.swing.JLabel();
+        dateToText1 = new javax.swing.JFormattedTextField();
+        jLabel106 = new javax.swing.JLabel();
+        DestinationText1 = new javax.swing.JTextField();
+        jLabel107 = new javax.swing.JLabel();
+        dateFromText1 = new javax.swing.JFormattedTextField();
+        jLabel108 = new javax.swing.JLabel();
+        FromText1 = new javax.swing.JTextField();
+        jLabel109 = new javax.swing.JLabel();
+        airportNameList1 = new javax.swing.JComboBox<>();
+        jLabel110 = new javax.swing.JLabel();
+        flightClassList1 = new javax.swing.JComboBox<>();
+        jLabel111 = new javax.swing.JLabel();
+        hotelNameList1 = new javax.swing.JComboBox<>();
+        jLabel112 = new javax.swing.JLabel();
+        roomTypeList1 = new javax.swing.JComboBox<>();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        offerDescriptionTextArea1 = new javax.swing.JTextArea();
+        jLabel113 = new javax.swing.JLabel();
+        editOfferPanel = new javax.swing.JPanel();
+        editOfferButton = new javax.swing.JLabel();
         header = new javax.swing.JPanel();
         minMaxCloseIcon = new javax.swing.JPanel();
         minButton = new javax.swing.JPanel();
@@ -192,18 +222,325 @@ public class manager_page extends javax.swing.JFrame {
         jPanel10 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         offerGroup2 = new javax.swing.JPanel();
-        offer4 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
+        scroll1 = new javax.swing.JScrollPane();
+        offer1 = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
-        offer5 = new javax.swing.JPanel();
-        offer6 = new javax.swing.JPanel();
+        jPanel16 = new javax.swing.JPanel();
+        jPanel18 = new javax.swing.JPanel();
+        jPanel34 = new javax.swing.JPanel();
+        jLabel45 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        offerDescriptionText1 = new javax.swing.JTextArea();
+        jPanel35 = new javax.swing.JPanel();
+        jPanel20 = new javax.swing.JPanel();
+        jPanel30 = new javax.swing.JPanel();
+        editButton = new javax.swing.JLabel();
+        jPanel21 = new javax.swing.JPanel();
+        jPanel31 = new javax.swing.JPanel();
+        deleteButton = new javax.swing.JLabel();
+        jPanel19 = new javax.swing.JPanel();
+        jPanel14 = new javax.swing.JPanel();
+        jPanel17 = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
+        generalPrice1 = new javax.swing.JLabel();
+        jPanel22 = new javax.swing.JPanel();
+        jLabel31 = new javax.swing.JLabel();
+        from1 = new javax.swing.JLabel();
+        jPanel23 = new javax.swing.JPanel();
+        jLabel33 = new javax.swing.JLabel();
+        dateFrom1 = new javax.swing.JLabel();
+        jPanel24 = new javax.swing.JPanel();
+        jLabel35 = new javax.swing.JLabel();
+        hotelAddress1 = new javax.swing.JLabel();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        airlineName1 = new javax.swing.JLabel();
+        jPanel32 = new javax.swing.JPanel();
+        jLabel47 = new javax.swing.JLabel();
+        flightClass1 = new javax.swing.JLabel();
+        jPanel25 = new javax.swing.JPanel();
+        jPanel26 = new javax.swing.JPanel();
+        jLabel37 = new javax.swing.JLabel();
+        destination1 = new javax.swing.JLabel();
+        jPanel27 = new javax.swing.JPanel();
+        jLabel39 = new javax.swing.JLabel();
+        dateTo1 = new javax.swing.JLabel();
+        jPanel28 = new javax.swing.JPanel();
+        jLabel41 = new javax.swing.JLabel();
+        hotelName1 = new javax.swing.JLabel();
+        jPanel29 = new javax.swing.JPanel();
+        jLabel43 = new javax.swing.JLabel();
+        roomType1 = new javax.swing.JLabel();
+        jPanel33 = new javax.swing.JPanel();
+        jLabel49 = new javax.swing.JLabel();
+        flightPrice1 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        offer2 = new javax.swing.JPanel();
+        jPanel36 = new javax.swing.JPanel();
+        jLabel32 = new javax.swing.JLabel();
+        jPanel37 = new javax.swing.JPanel();
+        jPanel38 = new javax.swing.JPanel();
+        jPanel39 = new javax.swing.JPanel();
+        jLabel46 = new javax.swing.JLabel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        offerDescriptionText2 = new javax.swing.JTextArea();
+        jPanel40 = new javax.swing.JPanel();
+        jPanel41 = new javax.swing.JPanel();
+        jPanel42 = new javax.swing.JPanel();
+        editButton1 = new javax.swing.JLabel();
+        jPanel43 = new javax.swing.JPanel();
+        jPanel44 = new javax.swing.JPanel();
+        deleteButton1 = new javax.swing.JLabel();
+        jPanel45 = new javax.swing.JPanel();
+        jPanel46 = new javax.swing.JPanel();
+        jPanel47 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        generalPrice2 = new javax.swing.JLabel();
+        jPanel48 = new javax.swing.JPanel();
+        jLabel34 = new javax.swing.JLabel();
+        from2 = new javax.swing.JLabel();
+        jPanel49 = new javax.swing.JPanel();
+        jLabel36 = new javax.swing.JLabel();
+        dateFrom2 = new javax.swing.JLabel();
+        jPanel50 = new javax.swing.JPanel();
+        jLabel38 = new javax.swing.JLabel();
+        hotelAddress2 = new javax.swing.JLabel();
+        jPanel51 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        airlineName2 = new javax.swing.JLabel();
+        jPanel52 = new javax.swing.JPanel();
+        jLabel48 = new javax.swing.JLabel();
+        flightClass2 = new javax.swing.JLabel();
+        jPanel53 = new javax.swing.JPanel();
+        jPanel54 = new javax.swing.JPanel();
+        jLabel40 = new javax.swing.JLabel();
+        destination2 = new javax.swing.JLabel();
+        jPanel55 = new javax.swing.JPanel();
+        jLabel42 = new javax.swing.JLabel();
+        dateTo2 = new javax.swing.JLabel();
+        jPanel56 = new javax.swing.JPanel();
+        jLabel44 = new javax.swing.JLabel();
+        hotelName2 = new javax.swing.JLabel();
+        jPanel57 = new javax.swing.JPanel();
+        jLabel50 = new javax.swing.JLabel();
+        roomType2 = new javax.swing.JLabel();
+        jPanel58 = new javax.swing.JPanel();
+        jLabel51 = new javax.swing.JLabel();
+        flightPrice2 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        offer3 = new javax.swing.JPanel();
+        jPanel59 = new javax.swing.JPanel();
+        jLabel52 = new javax.swing.JLabel();
+        jPanel60 = new javax.swing.JPanel();
+        jPanel61 = new javax.swing.JPanel();
+        jPanel62 = new javax.swing.JPanel();
+        jLabel53 = new javax.swing.JLabel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        offerDescriptionText3 = new javax.swing.JTextArea();
+        jPanel63 = new javax.swing.JPanel();
+        jPanel64 = new javax.swing.JPanel();
+        jPanel65 = new javax.swing.JPanel();
+        editButton2 = new javax.swing.JLabel();
+        jPanel66 = new javax.swing.JPanel();
+        jPanel67 = new javax.swing.JPanel();
+        deleteButton2 = new javax.swing.JLabel();
+        jPanel68 = new javax.swing.JPanel();
+        jPanel69 = new javax.swing.JPanel();
+        jPanel70 = new javax.swing.JPanel();
+        jLabel54 = new javax.swing.JLabel();
+        generalPrice3 = new javax.swing.JLabel();
+        jPanel71 = new javax.swing.JPanel();
+        jLabel55 = new javax.swing.JLabel();
+        from3 = new javax.swing.JLabel();
+        jPanel72 = new javax.swing.JPanel();
+        jLabel56 = new javax.swing.JLabel();
+        dateFrom3 = new javax.swing.JLabel();
+        jPanel73 = new javax.swing.JPanel();
+        jLabel57 = new javax.swing.JLabel();
+        hotelAddress3 = new javax.swing.JLabel();
+        jPanel74 = new javax.swing.JPanel();
+        jLabel58 = new javax.swing.JLabel();
+        airlineName3 = new javax.swing.JLabel();
+        jPanel75 = new javax.swing.JPanel();
+        jLabel59 = new javax.swing.JLabel();
+        flightClass3 = new javax.swing.JLabel();
+        jPanel76 = new javax.swing.JPanel();
+        jPanel77 = new javax.swing.JPanel();
+        jLabel60 = new javax.swing.JLabel();
+        destination3 = new javax.swing.JLabel();
+        jPanel78 = new javax.swing.JPanel();
+        jLabel61 = new javax.swing.JLabel();
+        dateTo3 = new javax.swing.JLabel();
+        jPanel79 = new javax.swing.JPanel();
+        jLabel62 = new javax.swing.JLabel();
+        hotelName3 = new javax.swing.JLabel();
+        jPanel80 = new javax.swing.JPanel();
+        jLabel63 = new javax.swing.JLabel();
+        roomType3 = new javax.swing.JLabel();
+        jPanel81 = new javax.swing.JPanel();
+        jLabel64 = new javax.swing.JLabel();
+        flightPrice3 = new javax.swing.JLabel();
         offerGroup3 = new javax.swing.JPanel();
-        offer7 = new javax.swing.JPanel();
-        offer8 = new javax.swing.JPanel();
-        offer9 = new javax.swing.JPanel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        offer4 = new javax.swing.JPanel();
+        jPanel82 = new javax.swing.JPanel();
+        jLabel65 = new javax.swing.JLabel();
+        jPanel83 = new javax.swing.JPanel();
+        jPanel84 = new javax.swing.JPanel();
+        jPanel85 = new javax.swing.JPanel();
+        jLabel66 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        offerDescriptionText4 = new javax.swing.JTextArea();
+        jPanel86 = new javax.swing.JPanel();
+        jPanel87 = new javax.swing.JPanel();
+        jPanel88 = new javax.swing.JPanel();
+        editButton3 = new javax.swing.JLabel();
+        jPanel89 = new javax.swing.JPanel();
+        jPanel90 = new javax.swing.JPanel();
+        deleteButton3 = new javax.swing.JLabel();
+        jPanel91 = new javax.swing.JPanel();
+        jPanel92 = new javax.swing.JPanel();
+        jPanel93 = new javax.swing.JPanel();
+        jLabel67 = new javax.swing.JLabel();
+        generalPrice4 = new javax.swing.JLabel();
+        jPanel94 = new javax.swing.JPanel();
+        jLabel68 = new javax.swing.JLabel();
+        from4 = new javax.swing.JLabel();
+        jPanel95 = new javax.swing.JPanel();
+        jLabel69 = new javax.swing.JLabel();
+        dateFrom4 = new javax.swing.JLabel();
+        jPanel96 = new javax.swing.JPanel();
+        jLabel70 = new javax.swing.JLabel();
+        hotelAddress4 = new javax.swing.JLabel();
+        jPanel97 = new javax.swing.JPanel();
+        jLabel71 = new javax.swing.JLabel();
+        airlineName4 = new javax.swing.JLabel();
+        jPanel98 = new javax.swing.JPanel();
+        jLabel72 = new javax.swing.JLabel();
+        flightClass4 = new javax.swing.JLabel();
+        jPanel99 = new javax.swing.JPanel();
+        jPanel100 = new javax.swing.JPanel();
+        jLabel73 = new javax.swing.JLabel();
+        destination4 = new javax.swing.JLabel();
+        jPanel101 = new javax.swing.JPanel();
+        jLabel74 = new javax.swing.JLabel();
+        dateTo4 = new javax.swing.JLabel();
+        jPanel102 = new javax.swing.JPanel();
+        jLabel75 = new javax.swing.JLabel();
+        hotelName4 = new javax.swing.JLabel();
+        jPanel103 = new javax.swing.JPanel();
+        jLabel76 = new javax.swing.JLabel();
+        roomType4 = new javax.swing.JLabel();
+        jPanel104 = new javax.swing.JPanel();
+        jLabel77 = new javax.swing.JLabel();
+        flightPrice4 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        offer5 = new javax.swing.JPanel();
+        jPanel105 = new javax.swing.JPanel();
+        jLabel78 = new javax.swing.JLabel();
+        jPanel106 = new javax.swing.JPanel();
+        jPanel107 = new javax.swing.JPanel();
+        jPanel108 = new javax.swing.JPanel();
+        jLabel79 = new javax.swing.JLabel();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        offerDescriptionText5 = new javax.swing.JTextArea();
+        jPanel109 = new javax.swing.JPanel();
+        jPanel110 = new javax.swing.JPanel();
+        jPanel111 = new javax.swing.JPanel();
+        editButton4 = new javax.swing.JLabel();
+        jPanel112 = new javax.swing.JPanel();
+        jPanel113 = new javax.swing.JPanel();
+        deleteButton4 = new javax.swing.JLabel();
+        jPanel114 = new javax.swing.JPanel();
+        jPanel115 = new javax.swing.JPanel();
+        jPanel116 = new javax.swing.JPanel();
+        jLabel80 = new javax.swing.JLabel();
+        generalPrice5 = new javax.swing.JLabel();
+        jPanel117 = new javax.swing.JPanel();
+        jLabel81 = new javax.swing.JLabel();
+        from5 = new javax.swing.JLabel();
+        jPanel118 = new javax.swing.JPanel();
+        jLabel82 = new javax.swing.JLabel();
+        dateFrom5 = new javax.swing.JLabel();
+        jPanel119 = new javax.swing.JPanel();
+        jLabel83 = new javax.swing.JLabel();
+        hotelAddress5 = new javax.swing.JLabel();
+        jPanel120 = new javax.swing.JPanel();
+        jLabel84 = new javax.swing.JLabel();
+        airlineName5 = new javax.swing.JLabel();
+        jPanel121 = new javax.swing.JPanel();
+        jLabel85 = new javax.swing.JLabel();
+        flightClass5 = new javax.swing.JLabel();
+        jPanel122 = new javax.swing.JPanel();
+        jPanel123 = new javax.swing.JPanel();
+        jLabel86 = new javax.swing.JLabel();
+        destination5 = new javax.swing.JLabel();
+        jPanel124 = new javax.swing.JPanel();
+        jLabel87 = new javax.swing.JLabel();
+        dateTo5 = new javax.swing.JLabel();
+        jPanel125 = new javax.swing.JPanel();
+        jLabel88 = new javax.swing.JLabel();
+        hotelName5 = new javax.swing.JLabel();
+        jPanel126 = new javax.swing.JPanel();
+        jLabel89 = new javax.swing.JLabel();
+        roomType5 = new javax.swing.JLabel();
+        jPanel127 = new javax.swing.JPanel();
+        jLabel90 = new javax.swing.JLabel();
+        flightPrice5 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        offer6 = new javax.swing.JPanel();
+        jPanel128 = new javax.swing.JPanel();
+        jLabel91 = new javax.swing.JLabel();
+        jPanel129 = new javax.swing.JPanel();
+        jPanel130 = new javax.swing.JPanel();
+        jPanel131 = new javax.swing.JPanel();
+        jLabel92 = new javax.swing.JLabel();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        offerDescriptionText6 = new javax.swing.JTextArea();
+        jPanel132 = new javax.swing.JPanel();
+        jPanel133 = new javax.swing.JPanel();
+        jPanel134 = new javax.swing.JPanel();
+        editButton5 = new javax.swing.JLabel();
+        jPanel135 = new javax.swing.JPanel();
+        jPanel136 = new javax.swing.JPanel();
+        deleteButton5 = new javax.swing.JLabel();
+        jPanel137 = new javax.swing.JPanel();
+        jPanel138 = new javax.swing.JPanel();
+        jPanel139 = new javax.swing.JPanel();
+        jLabel93 = new javax.swing.JLabel();
+        generalPrice6 = new javax.swing.JLabel();
+        jPanel140 = new javax.swing.JPanel();
+        jLabel94 = new javax.swing.JLabel();
+        from6 = new javax.swing.JLabel();
+        jPanel141 = new javax.swing.JPanel();
+        jLabel95 = new javax.swing.JLabel();
+        dateFrom6 = new javax.swing.JLabel();
+        jPanel142 = new javax.swing.JPanel();
+        jLabel96 = new javax.swing.JLabel();
+        hotelAddress6 = new javax.swing.JLabel();
+        jPanel143 = new javax.swing.JPanel();
+        jLabel97 = new javax.swing.JLabel();
+        airlineName6 = new javax.swing.JLabel();
+        jPanel144 = new javax.swing.JPanel();
+        jLabel98 = new javax.swing.JLabel();
+        flightClass6 = new javax.swing.JLabel();
+        jPanel145 = new javax.swing.JPanel();
+        jPanel146 = new javax.swing.JPanel();
+        jLabel99 = new javax.swing.JLabel();
+        destination6 = new javax.swing.JLabel();
+        jPanel147 = new javax.swing.JPanel();
+        jLabel100 = new javax.swing.JLabel();
+        dateTo6 = new javax.swing.JLabel();
+        jPanel148 = new javax.swing.JPanel();
+        jLabel101 = new javax.swing.JLabel();
+        hotelName6 = new javax.swing.JLabel();
+        jPanel149 = new javax.swing.JPanel();
+        jLabel102 = new javax.swing.JLabel();
+        roomType6 = new javax.swing.JLabel();
+        jPanel150 = new javax.swing.JPanel();
+        jLabel103 = new javax.swing.JLabel();
+        flightPrice6 = new javax.swing.JLabel();
 
         jFrame1.setAlwaysOnTop(true);
         jFrame1.setMinimumSize(new java.awt.Dimension(500, 500));
@@ -714,8 +1051,220 @@ public class manager_page extends javax.swing.JFrame {
 
         addAirportFrame.getContentPane().add(jPanel12, java.awt.BorderLayout.CENTER);
 
+        editOffer.setAlwaysOnTop(true);
+        editOffer.setMinimumSize(new java.awt.Dimension(500, 500));
+        editOffer.setUndecorated(true);
+        editOffer.setResizable(false);
+
+        jPanel151.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel151.setPreferredSize(new java.awt.Dimension(476, 30));
+        jPanel151.setLayout(new java.awt.BorderLayout());
+
+        closePanel3.setBackground(new java.awt.Color(44, 159, 186));
+        closePanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        close3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/close.png"))); // NOI18N
+        close3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        close3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                close3MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                close3MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                close3MouseExited(evt);
+            }
+        });
+        closePanel3.add(close3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 30, 30));
+
+        jPanel151.add(closePanel3, java.awt.BorderLayout.LINE_END);
+
+        editOffer.getContentPane().add(jPanel151, java.awt.BorderLayout.PAGE_START);
+
+        jPanel152.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel104.setText("Additional service id:");
+
+        AdditionalserviceidText1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        AdditionalserviceidText1.setPreferredSize(new java.awt.Dimension(100, 30));
+        AdditionalserviceidText1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AdditionalserviceidText1ActionPerformed(evt);
+            }
+        });
+
+        jLabel105.setText("Date to:");
+
+        dateToText1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        dateToText1.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(new java.text.SimpleDateFormat("22/12/2022"))));
+        dateToText1.setMinimumSize(new java.awt.Dimension(100, 30));
+        dateToText1.setPreferredSize(new java.awt.Dimension(100, 30));
+        dateToText1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dateToText1ActionPerformed(evt);
+            }
+        });
+
+        jLabel106.setText("Destination:");
+
+        DestinationText1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        DestinationText1.setMinimumSize(new java.awt.Dimension(100, 30));
+        DestinationText1.setPreferredSize(new java.awt.Dimension(100, 30));
+
+        jLabel107.setText("Date From:");
+
+        dateFromText1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        dateFromText1.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(new java.text.SimpleDateFormat("22/12/2022"))));
+        dateFromText1.setPreferredSize(new java.awt.Dimension(100, 30));
+
+        jLabel108.setText("From:");
+
+        FromText1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        FromText1.setPreferredSize(new java.awt.Dimension(100, 30));
+
+        jLabel109.setText("Airport Name:");
+
+        airportNameList1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        airportNameList1.setBorder(null);
+
+        jLabel110.setText("Flight class:");
+
+        flightClassList1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jLabel111.setText("Hotel name: ");
+
+        hotelNameList1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jLabel112.setText("Room type:");
+
+        roomTypeList1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        roomTypeList1.setPreferredSize(new java.awt.Dimension(100, 25));
+
+        offerDescriptionTextArea1.setColumns(20);
+        offerDescriptionTextArea1.setRows(5);
+        jScrollPane2.setViewportView(offerDescriptionTextArea1);
+
+        jLabel113.setText("Offer description");
+
+        editOfferPanel.setBackground(new java.awt.Color(44, 159, 186));
+        editOfferPanel.setPreferredSize(new java.awt.Dimension(150, 30));
+        editOfferPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        editOfferButton.setBackground(new java.awt.Color(141, 221, 210));
+        editOfferButton.setForeground(new java.awt.Color(255, 255, 255));
+        editOfferButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/icons8-add-new-32.png"))); // NOI18N
+        editOfferButton.setText("        Edit Offer");
+        editOfferButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        editOfferButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                editOfferButtonMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                editOfferButtonMouseExited(evt);
+            }
+        });
+        editOfferPanel.add(editOfferButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 32));
+
+        javax.swing.GroupLayout jPanel152Layout = new javax.swing.GroupLayout(jPanel152);
+        jPanel152.setLayout(jPanel152Layout);
+        jPanel152Layout.setHorizontalGroup(
+            jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel152Layout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel112)
+                    .addComponent(jLabel110)
+                    .addComponent(jLabel108)
+                    .addComponent(jLabel104)
+                    .addComponent(jLabel106))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel152Layout.createSequentialGroup()
+                        .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel152Layout.createSequentialGroup()
+                                .addComponent(flightClassList1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel111))
+                            .addGroup(jPanel152Layout.createSequentialGroup()
+                                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(AdditionalserviceidText1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(DestinationText1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(42, 42, 42)
+                                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel105)
+                                    .addComponent(jLabel107)))
+                            .addGroup(jPanel152Layout.createSequentialGroup()
+                                .addComponent(FromText1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel109)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(dateToText1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(dateFromText1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(airportNameList1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(hotelNameList1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(roomTypeList1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(26, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel152Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel152Layout.createSequentialGroup()
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(118, 118, 118))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel152Layout.createSequentialGroup()
+                        .addComponent(jLabel113)
+                        .addGap(196, 196, 196))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel152Layout.createSequentialGroup()
+                        .addComponent(editOfferPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(155, 155, 155))))
+        );
+        jPanel152Layout.setVerticalGroup(
+            jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel152Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel104)
+                    .addComponent(AdditionalserviceidText1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel105)
+                    .addComponent(dateToText1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel106)
+                    .addComponent(DestinationText1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel107)
+                    .addComponent(dateFromText1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel108)
+                    .addComponent(FromText1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel109)
+                    .addComponent(airportNameList1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(flightClassList1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel110)
+                    .addComponent(jLabel111)
+                    .addComponent(hotelNameList1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel152Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel112)
+                    .addComponent(roomTypeList1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel113)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(editOfferPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(22, 22, 22))
+        );
+
+        editOffer.getContentPane().add(jPanel152, java.awt.BorderLayout.CENTER);
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(1000, 700));
         setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(1000, 700));
 
         header.setBackground(new java.awt.Color(44, 159, 186));
         header.setPreferredSize(new java.awt.Dimension(576, 50));
@@ -1028,7 +1577,7 @@ public class manager_page extends javax.swing.JFrame {
         );
         massegesLayout.setVerticalGroup(
             massegesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 316, Short.MAX_VALUE)
+            .addGap(0, 365, Short.MAX_VALUE)
         );
 
         massegesAndButtons.add(masseges, java.awt.BorderLayout.CENTER);
@@ -1117,7 +1666,7 @@ public class manager_page extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 780, Short.MAX_VALUE)
+            .addGap(0, 797, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1168,113 +1717,1346 @@ public class manager_page extends javax.swing.JFrame {
         offerGroup2.setBackground(new java.awt.Color(255, 255, 255));
         offerGroup2.setLayout(new java.awt.GridLayout(0, 3, 10, 0));
 
-        offer4.setBackground(new java.awt.Color(255, 255, 255));
-        offer4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
-        offer4.setMinimumSize(new java.awt.Dimension(250, 120));
-        offer4.setPreferredSize(new java.awt.Dimension(200, 120));
-        offer4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        scroll1.setBackground(new java.awt.Color(51, 255, 255));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
-        offer4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 130, 120));
+        offer1.setBackground(new java.awt.Color(255, 255, 255));
+        offer1.setLayout(new java.awt.BorderLayout());
 
-        jLabel14.setText("Price:");
-        offer4.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 110, 30));
+        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel13.setMinimumSize(new java.awt.Dimension(100, 200));
 
-        jLabel15.setText("Date:");
-        offer4.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, 110, 30));
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
+        jLabel17.setMaximumSize(new java.awt.Dimension(1000, 1000));
+        jLabel17.setMinimumSize(new java.awt.Dimension(265, 200));
+        jLabel17.setPreferredSize(new java.awt.Dimension(265, 200));
+        jPanel13.add(jLabel17);
 
-        jLabel16.setText("From:");
-        offer4.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 86, 110, 30));
+        offer1.add(jPanel13, java.awt.BorderLayout.PAGE_START);
 
-        jLabel17.setText("Destination:");
-        offer4.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 170, 30));
+        jPanel16.setLayout(new java.awt.BorderLayout());
 
-        offerGroup2.add(offer4);
+        jPanel18.setMinimumSize(new java.awt.Dimension(280, 150));
+        jPanel18.setPreferredSize(new java.awt.Dimension(280, 150));
+        jPanel18.setLayout(new java.awt.BorderLayout());
 
-        offer5.setBackground(new java.awt.Color(255, 255, 255));
-        offer5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        jPanel34.setBackground(new java.awt.Color(255, 255, 255));
 
-        javax.swing.GroupLayout offer5Layout = new javax.swing.GroupLayout(offer5);
-        offer5.setLayout(offer5Layout);
-        offer5Layout.setHorizontalGroup(
-            offer5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
-        );
-        offer5Layout.setVerticalGroup(
-            offer5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 166, Short.MAX_VALUE)
-        );
+        jLabel45.setText("Offer description");
+        jPanel34.add(jLabel45);
 
-        offerGroup2.add(offer5);
+        offerDescriptionText1.setColumns(20);
+        offerDescriptionText1.setRows(5);
+        jScrollPane8.setViewportView(offerDescriptionText1);
 
-        offer6.setBackground(new java.awt.Color(255, 255, 255));
-        offer6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        jPanel34.add(jScrollPane8);
 
-        javax.swing.GroupLayout offer6Layout = new javax.swing.GroupLayout(offer6);
-        offer6.setLayout(offer6Layout);
-        offer6Layout.setHorizontalGroup(
-            offer6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
-        );
-        offer6Layout.setVerticalGroup(
-            offer6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 166, Short.MAX_VALUE)
-        );
+        jPanel18.add(jPanel34, java.awt.BorderLayout.PAGE_START);
 
-        offerGroup2.add(offer6);
+        jPanel35.setMinimumSize(new java.awt.Dimension(280, 35));
+        jPanel35.setPreferredSize(new java.awt.Dimension(280, 35));
+        jPanel35.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel20.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel20.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel20.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel30.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel30.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel30.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel30.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        editButton.setText("     EDIT OFFER");
+        editButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        editButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                editButtonMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                editButtonMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                editButtonMouseExited(evt);
+            }
+        });
+        jPanel30.add(editButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 100, 30));
+
+        jPanel20.add(jPanel30);
+
+        jPanel35.add(jPanel20);
+
+        jPanel21.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel21.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel21.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel31.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel31.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel31.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel31.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        deleteButton.setText("  DELETE OFFER");
+        deleteButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        deleteButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                deleteButtonMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                deleteButtonMouseExited(evt);
+            }
+        });
+        jPanel31.add(deleteButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 1, 100, 30));
+
+        jPanel21.add(jPanel31);
+
+        jPanel35.add(jPanel21);
+
+        jPanel18.add(jPanel35, java.awt.BorderLayout.CENTER);
+
+        jPanel16.add(jPanel18, java.awt.BorderLayout.PAGE_END);
+
+        jPanel19.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel14.setLayout(new java.awt.GridLayout(6, 0));
+
+        jPanel17.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel15.setText("Price:");
+        jPanel17.add(jLabel15);
+
+        generalPrice1.setText("example");
+        jPanel17.add(generalPrice1);
+
+        jPanel14.add(jPanel17);
+
+        jPanel22.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel31.setText("From:");
+        jPanel22.add(jLabel31);
+
+        from1.setText("example");
+        jPanel22.add(from1);
+
+        jPanel14.add(jPanel22);
+
+        jPanel23.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel33.setText("Date From:");
+        jPanel23.add(jLabel33);
+
+        dateFrom1.setText("example");
+        jPanel23.add(dateFrom1);
+
+        jPanel14.add(jPanel23);
+
+        jPanel24.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel35.setText("Hotel Address:");
+        jPanel24.add(jLabel35);
+
+        hotelAddress1.setText("example");
+        jPanel24.add(hotelAddress1);
+
+        jPanel14.add(jPanel24);
+
+        jPanel15.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel1.setText("Airplan Name:");
+        jPanel15.add(jLabel1);
+
+        airlineName1.setText("example");
+        jPanel15.add(airlineName1);
+
+        jPanel14.add(jPanel15);
+
+        jPanel32.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel47.setText("Flight Class:");
+        jPanel32.add(jLabel47);
+
+        flightClass1.setText("example");
+        jPanel32.add(flightClass1);
+
+        jPanel14.add(jPanel32);
+
+        jPanel19.add(jPanel14);
+
+        jPanel25.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel25.setLayout(new java.awt.GridLayout(5, 0));
+
+        jPanel26.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel37.setText("destination:");
+        jPanel26.add(jLabel37);
+
+        destination1.setText("example");
+        jPanel26.add(destination1);
+
+        jPanel25.add(jPanel26);
+
+        jPanel27.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel39.setText("Date To:");
+        jPanel27.add(jLabel39);
+
+        dateTo1.setText("example");
+        jPanel27.add(dateTo1);
+
+        jPanel25.add(jPanel27);
+
+        jPanel28.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel41.setText("Hotel Name:");
+        jPanel28.add(jLabel41);
+
+        hotelName1.setText("example");
+        jPanel28.add(hotelName1);
+
+        jPanel25.add(jPanel28);
+
+        jPanel29.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel43.setText("Room Type:");
+        jPanel29.add(jLabel43);
+
+        roomType1.setText("example");
+        jPanel29.add(roomType1);
+
+        jPanel25.add(jPanel29);
+
+        jPanel33.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel49.setText("Flight Price:");
+        jPanel33.add(jLabel49);
+
+        flightPrice1.setText("example");
+        jPanel33.add(flightPrice1);
+
+        jPanel25.add(jPanel33);
+
+        jPanel19.add(jPanel25);
+
+        jPanel16.add(jPanel19, java.awt.BorderLayout.CENTER);
+
+        offer1.add(jPanel16, java.awt.BorderLayout.CENTER);
+
+        scroll1.setViewportView(offer1);
+
+        offerGroup2.add(scroll1);
+
+        offer2.setBackground(new java.awt.Color(255, 255, 255));
+        offer2.setLayout(new java.awt.BorderLayout());
+
+        jPanel36.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel36.setMinimumSize(new java.awt.Dimension(100, 200));
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
+        jLabel32.setMaximumSize(new java.awt.Dimension(1000, 1000));
+        jLabel32.setMinimumSize(new java.awt.Dimension(265, 200));
+        jLabel32.setPreferredSize(new java.awt.Dimension(265, 200));
+        jPanel36.add(jLabel32);
+
+        offer2.add(jPanel36, java.awt.BorderLayout.PAGE_START);
+
+        jPanel37.setLayout(new java.awt.BorderLayout());
+
+        jPanel38.setMinimumSize(new java.awt.Dimension(280, 150));
+        jPanel38.setPreferredSize(new java.awt.Dimension(280, 150));
+        jPanel38.setLayout(new java.awt.BorderLayout());
+
+        jPanel39.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel46.setText("Offer description");
+        jPanel39.add(jLabel46);
+
+        offerDescriptionText2.setColumns(20);
+        offerDescriptionText2.setRows(5);
+        jScrollPane9.setViewportView(offerDescriptionText2);
+
+        jPanel39.add(jScrollPane9);
+
+        jPanel38.add(jPanel39, java.awt.BorderLayout.PAGE_START);
+
+        jPanel40.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel41.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel41.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel41.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel42.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel42.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel42.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel42.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        editButton1.setText("     EDIT OFFER");
+        editButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        editButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                editButton1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                editButton1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                editButton1MouseExited(evt);
+            }
+        });
+        jPanel42.add(editButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 100, 30));
+
+        jPanel41.add(jPanel42);
+
+        jPanel40.add(jPanel41);
+
+        jPanel43.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel43.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel43.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel44.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel44.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel44.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel44.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        deleteButton1.setText("  DELETE OFFER");
+        deleteButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        deleteButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                deleteButton1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                deleteButton1MouseExited(evt);
+            }
+        });
+        jPanel44.add(deleteButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 1, 100, 30));
+
+        jPanel43.add(jPanel44);
+
+        jPanel40.add(jPanel43);
+
+        jPanel38.add(jPanel40, java.awt.BorderLayout.CENTER);
+
+        jPanel37.add(jPanel38, java.awt.BorderLayout.PAGE_END);
+
+        jPanel45.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel46.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel46.setLayout(new java.awt.GridLayout(6, 0));
+
+        jPanel47.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel16.setText("Price:");
+        jPanel47.add(jLabel16);
+
+        generalPrice2.setText("example");
+        jPanel47.add(generalPrice2);
+
+        jPanel46.add(jPanel47);
+
+        jPanel48.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel34.setText("From:");
+        jPanel48.add(jLabel34);
+
+        from2.setText("example");
+        jPanel48.add(from2);
+
+        jPanel46.add(jPanel48);
+
+        jPanel49.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel36.setText("Date From:");
+        jPanel49.add(jLabel36);
+
+        dateFrom2.setText("example");
+        jPanel49.add(dateFrom2);
+
+        jPanel46.add(jPanel49);
+
+        jPanel50.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel38.setText("Hotel Address:");
+        jPanel50.add(jLabel38);
+
+        hotelAddress2.setText("example");
+        jPanel50.add(hotelAddress2);
+
+        jPanel46.add(jPanel50);
+
+        jPanel51.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel14.setText("Airplan Name:");
+        jPanel51.add(jLabel14);
+
+        airlineName2.setText("example");
+        jPanel51.add(airlineName2);
+
+        jPanel46.add(jPanel51);
+
+        jPanel52.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel48.setText("Flight Class:");
+        jPanel52.add(jLabel48);
+
+        flightClass2.setText("example");
+        jPanel52.add(flightClass2);
+
+        jPanel46.add(jPanel52);
+
+        jPanel45.add(jPanel46);
+
+        jPanel53.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel53.setLayout(new java.awt.GridLayout(5, 0));
+
+        jPanel54.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel40.setText("destination:");
+        jPanel54.add(jLabel40);
+
+        destination2.setText("example");
+        jPanel54.add(destination2);
+
+        jPanel53.add(jPanel54);
+
+        jPanel55.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel42.setText("Date To:");
+        jPanel55.add(jLabel42);
+
+        dateTo2.setText("example");
+        jPanel55.add(dateTo2);
+
+        jPanel53.add(jPanel55);
+
+        jPanel56.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel44.setText("Hotel Name:");
+        jPanel56.add(jLabel44);
+
+        hotelName2.setText("example");
+        jPanel56.add(hotelName2);
+
+        jPanel53.add(jPanel56);
+
+        jPanel57.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel50.setText("Room Type:");
+        jPanel57.add(jLabel50);
+
+        roomType2.setText("example");
+        jPanel57.add(roomType2);
+
+        jPanel53.add(jPanel57);
+
+        jPanel58.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel51.setText("Flight Price:");
+        jPanel58.add(jLabel51);
+
+        flightPrice2.setText("example");
+        jPanel58.add(flightPrice2);
+
+        jPanel53.add(jPanel58);
+
+        jPanel45.add(jPanel53);
+
+        jPanel37.add(jPanel45, java.awt.BorderLayout.CENTER);
+
+        offer2.add(jPanel37, java.awt.BorderLayout.CENTER);
+
+        jScrollPane3.setViewportView(offer2);
+
+        offerGroup2.add(jScrollPane3);
+
+        offer3.setBackground(new java.awt.Color(255, 255, 255));
+        offer3.setLayout(new java.awt.BorderLayout());
+
+        jPanel59.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel59.setMinimumSize(new java.awt.Dimension(100, 200));
+
+        jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
+        jLabel52.setMaximumSize(new java.awt.Dimension(1000, 1000));
+        jLabel52.setMinimumSize(new java.awt.Dimension(265, 200));
+        jLabel52.setPreferredSize(new java.awt.Dimension(265, 200));
+        jPanel59.add(jLabel52);
+
+        offer3.add(jPanel59, java.awt.BorderLayout.PAGE_START);
+
+        jPanel60.setLayout(new java.awt.BorderLayout());
+
+        jPanel61.setMinimumSize(new java.awt.Dimension(280, 150));
+        jPanel61.setPreferredSize(new java.awt.Dimension(280, 150));
+        jPanel61.setLayout(new java.awt.BorderLayout());
+
+        jPanel62.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel53.setText("Offer description");
+        jPanel62.add(jLabel53);
+
+        offerDescriptionText3.setColumns(20);
+        offerDescriptionText3.setRows(5);
+        jScrollPane10.setViewportView(offerDescriptionText3);
+
+        jPanel62.add(jScrollPane10);
+
+        jPanel61.add(jPanel62, java.awt.BorderLayout.PAGE_START);
+
+        jPanel63.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel64.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel64.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel64.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel65.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel65.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel65.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel65.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        editButton2.setText("     EDIT OFFER");
+        editButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        editButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                editButton2MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                editButton2MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                editButton2MouseExited(evt);
+            }
+        });
+        jPanel65.add(editButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 100, 30));
+
+        jPanel64.add(jPanel65);
+
+        jPanel63.add(jPanel64);
+
+        jPanel66.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel66.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel66.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel67.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel67.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel67.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel67.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        deleteButton2.setText("  DELETE OFFER");
+        deleteButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        deleteButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                deleteButton2MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                deleteButton2MouseExited(evt);
+            }
+        });
+        jPanel67.add(deleteButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 1, 100, 30));
+
+        jPanel66.add(jPanel67);
+
+        jPanel63.add(jPanel66);
+
+        jPanel61.add(jPanel63, java.awt.BorderLayout.CENTER);
+
+        jPanel60.add(jPanel61, java.awt.BorderLayout.PAGE_END);
+
+        jPanel68.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel69.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel69.setLayout(new java.awt.GridLayout(6, 0));
+
+        jPanel70.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel54.setText("Price:");
+        jPanel70.add(jLabel54);
+
+        generalPrice3.setText("example");
+        jPanel70.add(generalPrice3);
+
+        jPanel69.add(jPanel70);
+
+        jPanel71.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel55.setText("From:");
+        jPanel71.add(jLabel55);
+
+        from3.setText("example");
+        jPanel71.add(from3);
+
+        jPanel69.add(jPanel71);
+
+        jPanel72.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel56.setText("Date From:");
+        jPanel72.add(jLabel56);
+
+        dateFrom3.setText("example");
+        jPanel72.add(dateFrom3);
+
+        jPanel69.add(jPanel72);
+
+        jPanel73.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel57.setText("Hotel Address:");
+        jPanel73.add(jLabel57);
+
+        hotelAddress3.setText("example");
+        jPanel73.add(hotelAddress3);
+
+        jPanel69.add(jPanel73);
+
+        jPanel74.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel58.setText("Airplan Name:");
+        jPanel74.add(jLabel58);
+
+        airlineName3.setText("example");
+        jPanel74.add(airlineName3);
+
+        jPanel69.add(jPanel74);
+
+        jPanel75.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel59.setText("Flight Class:");
+        jPanel75.add(jLabel59);
+
+        flightClass3.setText("example");
+        jPanel75.add(flightClass3);
+
+        jPanel69.add(jPanel75);
+
+        jPanel68.add(jPanel69);
+
+        jPanel76.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel76.setLayout(new java.awt.GridLayout(5, 0));
+
+        jPanel77.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel60.setText("destination:");
+        jPanel77.add(jLabel60);
+
+        destination3.setText("example");
+        jPanel77.add(destination3);
+
+        jPanel76.add(jPanel77);
+
+        jPanel78.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel61.setText("Date To:");
+        jPanel78.add(jLabel61);
+
+        dateTo3.setText("example");
+        jPanel78.add(dateTo3);
+
+        jPanel76.add(jPanel78);
+
+        jPanel79.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel62.setText("Hotel Name:");
+        jPanel79.add(jLabel62);
+
+        hotelName3.setText("example");
+        jPanel79.add(hotelName3);
+
+        jPanel76.add(jPanel79);
+
+        jPanel80.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel63.setText("Room Type:");
+        jPanel80.add(jLabel63);
+
+        roomType3.setText("example");
+        jPanel80.add(roomType3);
+
+        jPanel76.add(jPanel80);
+
+        jPanel81.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel64.setText("Flight Price:");
+        jPanel81.add(jLabel64);
+
+        flightPrice3.setText("example");
+        jPanel81.add(flightPrice3);
+
+        jPanel76.add(jPanel81);
+
+        jPanel68.add(jPanel76);
+
+        jPanel60.add(jPanel68, java.awt.BorderLayout.CENTER);
+
+        offer3.add(jPanel60, java.awt.BorderLayout.CENTER);
+
+        jScrollPane4.setViewportView(offer3);
+
+        offerGroup2.add(jScrollPane4);
 
         offersPanel.add(offerGroup2);
 
         offerGroup3.setBackground(new java.awt.Color(255, 255, 255));
         offerGroup3.setLayout(new java.awt.GridLayout(0, 3, 10, 0));
 
-        offer7.setBackground(new java.awt.Color(255, 255, 255));
-        offer7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        offer4.setBackground(new java.awt.Color(255, 255, 255));
+        offer4.setLayout(new java.awt.BorderLayout());
 
-        javax.swing.GroupLayout offer7Layout = new javax.swing.GroupLayout(offer7);
-        offer7.setLayout(offer7Layout);
-        offer7Layout.setHorizontalGroup(
-            offer7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
-        );
-        offer7Layout.setVerticalGroup(
-            offer7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 166, Short.MAX_VALUE)
-        );
+        jPanel82.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel82.setMinimumSize(new java.awt.Dimension(100, 200));
 
-        offerGroup3.add(offer7);
+        jLabel65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
+        jLabel65.setMaximumSize(new java.awt.Dimension(1000, 1000));
+        jLabel65.setMinimumSize(new java.awt.Dimension(265, 200));
+        jLabel65.setPreferredSize(new java.awt.Dimension(265, 200));
+        jPanel82.add(jLabel65);
 
-        offer8.setBackground(new java.awt.Color(255, 255, 255));
-        offer8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        offer4.add(jPanel82, java.awt.BorderLayout.PAGE_START);
 
-        javax.swing.GroupLayout offer8Layout = new javax.swing.GroupLayout(offer8);
-        offer8.setLayout(offer8Layout);
-        offer8Layout.setHorizontalGroup(
-            offer8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
-        );
-        offer8Layout.setVerticalGroup(
-            offer8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 166, Short.MAX_VALUE)
-        );
+        jPanel83.setLayout(new java.awt.BorderLayout());
 
-        offerGroup3.add(offer8);
+        jPanel84.setMinimumSize(new java.awt.Dimension(280, 150));
+        jPanel84.setPreferredSize(new java.awt.Dimension(280, 150));
+        jPanel84.setLayout(new java.awt.BorderLayout());
 
-        offer9.setBackground(new java.awt.Color(255, 255, 255));
-        offer9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        jPanel85.setBackground(new java.awt.Color(255, 255, 255));
 
-        javax.swing.GroupLayout offer9Layout = new javax.swing.GroupLayout(offer9);
-        offer9.setLayout(offer9Layout);
-        offer9Layout.setHorizontalGroup(
-            offer9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
-        );
-        offer9Layout.setVerticalGroup(
-            offer9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 166, Short.MAX_VALUE)
-        );
+        jLabel66.setText("Offer description");
+        jPanel85.add(jLabel66);
 
-        offerGroup3.add(offer9);
+        offerDescriptionText4.setColumns(20);
+        offerDescriptionText4.setRows(5);
+        jScrollPane11.setViewportView(offerDescriptionText4);
+
+        jPanel85.add(jScrollPane11);
+
+        jPanel84.add(jPanel85, java.awt.BorderLayout.PAGE_START);
+
+        jPanel86.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel87.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel87.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel87.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel88.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel88.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel88.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel88.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        editButton3.setText("     EDIT OFFER");
+        editButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        editButton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                editButton3MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                editButton3MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                editButton3MouseExited(evt);
+            }
+        });
+        jPanel88.add(editButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 100, 30));
+
+        jPanel87.add(jPanel88);
+
+        jPanel86.add(jPanel87);
+
+        jPanel89.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel89.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel89.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel90.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel90.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel90.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel90.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        deleteButton3.setText("  DELETE OFFER");
+        deleteButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        deleteButton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                deleteButton3MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                deleteButton3MouseExited(evt);
+            }
+        });
+        jPanel90.add(deleteButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 1, 100, 30));
+
+        jPanel89.add(jPanel90);
+
+        jPanel86.add(jPanel89);
+
+        jPanel84.add(jPanel86, java.awt.BorderLayout.CENTER);
+
+        jPanel83.add(jPanel84, java.awt.BorderLayout.PAGE_END);
+
+        jPanel91.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel92.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel92.setLayout(new java.awt.GridLayout(6, 0));
+
+        jPanel93.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel67.setText("Price:");
+        jPanel93.add(jLabel67);
+
+        generalPrice4.setText("example");
+        jPanel93.add(generalPrice4);
+
+        jPanel92.add(jPanel93);
+
+        jPanel94.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel68.setText("From:");
+        jPanel94.add(jLabel68);
+
+        from4.setText("example");
+        jPanel94.add(from4);
+
+        jPanel92.add(jPanel94);
+
+        jPanel95.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel69.setText("Date From:");
+        jPanel95.add(jLabel69);
+
+        dateFrom4.setText("example");
+        jPanel95.add(dateFrom4);
+
+        jPanel92.add(jPanel95);
+
+        jPanel96.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel70.setText("Hotel Address:");
+        jPanel96.add(jLabel70);
+
+        hotelAddress4.setText("example");
+        jPanel96.add(hotelAddress4);
+
+        jPanel92.add(jPanel96);
+
+        jPanel97.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel71.setText("Airplan Name:");
+        jPanel97.add(jLabel71);
+
+        airlineName4.setText("example");
+        jPanel97.add(airlineName4);
+
+        jPanel92.add(jPanel97);
+
+        jPanel98.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel72.setText("Flight Class:");
+        jPanel98.add(jLabel72);
+
+        flightClass4.setText("example");
+        jPanel98.add(flightClass4);
+
+        jPanel92.add(jPanel98);
+
+        jPanel91.add(jPanel92);
+
+        jPanel99.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel99.setLayout(new java.awt.GridLayout(5, 0));
+
+        jPanel100.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel73.setText("destination:");
+        jPanel100.add(jLabel73);
+
+        destination4.setText("example");
+        jPanel100.add(destination4);
+
+        jPanel99.add(jPanel100);
+
+        jPanel101.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel74.setText("Date To:");
+        jPanel101.add(jLabel74);
+
+        dateTo4.setText("example");
+        jPanel101.add(dateTo4);
+
+        jPanel99.add(jPanel101);
+
+        jPanel102.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel75.setText("Hotel Name:");
+        jPanel102.add(jLabel75);
+
+        hotelName4.setText("example");
+        jPanel102.add(hotelName4);
+
+        jPanel99.add(jPanel102);
+
+        jPanel103.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel76.setText("Room Type:");
+        jPanel103.add(jLabel76);
+
+        roomType4.setText("example");
+        jPanel103.add(roomType4);
+
+        jPanel99.add(jPanel103);
+
+        jPanel104.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel77.setText("Flight Price:");
+        jPanel104.add(jLabel77);
+
+        flightPrice4.setText("example");
+        jPanel104.add(flightPrice4);
+
+        jPanel99.add(jPanel104);
+
+        jPanel91.add(jPanel99);
+
+        jPanel83.add(jPanel91, java.awt.BorderLayout.CENTER);
+
+        offer4.add(jPanel83, java.awt.BorderLayout.CENTER);
+
+        jScrollPane5.setViewportView(offer4);
+
+        offerGroup3.add(jScrollPane5);
+
+        offer5.setBackground(new java.awt.Color(255, 255, 255));
+        offer5.setLayout(new java.awt.BorderLayout());
+
+        jPanel105.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel105.setMinimumSize(new java.awt.Dimension(100, 200));
+
+        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
+        jLabel78.setMaximumSize(new java.awt.Dimension(1000, 1000));
+        jLabel78.setMinimumSize(new java.awt.Dimension(265, 200));
+        jLabel78.setPreferredSize(new java.awt.Dimension(265, 200));
+        jPanel105.add(jLabel78);
+
+        offer5.add(jPanel105, java.awt.BorderLayout.PAGE_START);
+
+        jPanel106.setLayout(new java.awt.BorderLayout());
+
+        jPanel107.setMinimumSize(new java.awt.Dimension(280, 150));
+        jPanel107.setPreferredSize(new java.awt.Dimension(280, 150));
+        jPanel107.setLayout(new java.awt.BorderLayout());
+
+        jPanel108.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel79.setText("Offer description");
+        jPanel108.add(jLabel79);
+
+        offerDescriptionText5.setColumns(20);
+        offerDescriptionText5.setRows(5);
+        jScrollPane12.setViewportView(offerDescriptionText5);
+
+        jPanel108.add(jScrollPane12);
+
+        jPanel107.add(jPanel108, java.awt.BorderLayout.PAGE_START);
+
+        jPanel109.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel110.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel110.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel110.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel111.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel111.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel111.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel111.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        editButton4.setText("     EDIT OFFER");
+        editButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        editButton4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                editButton4MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                editButton4MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                editButton4MouseExited(evt);
+            }
+        });
+        jPanel111.add(editButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 100, 30));
+
+        jPanel110.add(jPanel111);
+
+        jPanel109.add(jPanel110);
+
+        jPanel112.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel112.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel112.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel113.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel113.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel113.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel113.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        deleteButton4.setText("  DELETE OFFER");
+        deleteButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        deleteButton4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                deleteButton4MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                deleteButton4MouseExited(evt);
+            }
+        });
+        jPanel113.add(deleteButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 1, 100, 30));
+
+        jPanel112.add(jPanel113);
+
+        jPanel109.add(jPanel112);
+
+        jPanel107.add(jPanel109, java.awt.BorderLayout.CENTER);
+
+        jPanel106.add(jPanel107, java.awt.BorderLayout.PAGE_END);
+
+        jPanel114.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel115.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel115.setLayout(new java.awt.GridLayout(6, 0));
+
+        jPanel116.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel80.setText("Price:");
+        jPanel116.add(jLabel80);
+
+        generalPrice5.setText("example");
+        jPanel116.add(generalPrice5);
+
+        jPanel115.add(jPanel116);
+
+        jPanel117.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel81.setText("From:");
+        jPanel117.add(jLabel81);
+
+        from5.setText("example");
+        jPanel117.add(from5);
+
+        jPanel115.add(jPanel117);
+
+        jPanel118.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel82.setText("Date From:");
+        jPanel118.add(jLabel82);
+
+        dateFrom5.setText("example");
+        jPanel118.add(dateFrom5);
+
+        jPanel115.add(jPanel118);
+
+        jPanel119.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel83.setText("Hotel Address:");
+        jPanel119.add(jLabel83);
+
+        hotelAddress5.setText("example");
+        jPanel119.add(hotelAddress5);
+
+        jPanel115.add(jPanel119);
+
+        jPanel120.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel84.setText("Airplan Name:");
+        jPanel120.add(jLabel84);
+
+        airlineName5.setText("example");
+        jPanel120.add(airlineName5);
+
+        jPanel115.add(jPanel120);
+
+        jPanel121.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel85.setText("Flight Class:");
+        jPanel121.add(jLabel85);
+
+        flightClass5.setText("example");
+        jPanel121.add(flightClass5);
+
+        jPanel115.add(jPanel121);
+
+        jPanel114.add(jPanel115);
+
+        jPanel122.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel122.setLayout(new java.awt.GridLayout(5, 0));
+
+        jPanel123.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel86.setText("destination:");
+        jPanel123.add(jLabel86);
+
+        destination5.setText("example");
+        jPanel123.add(destination5);
+
+        jPanel122.add(jPanel123);
+
+        jPanel124.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel87.setText("Date To:");
+        jPanel124.add(jLabel87);
+
+        dateTo5.setText("example");
+        jPanel124.add(dateTo5);
+
+        jPanel122.add(jPanel124);
+
+        jPanel125.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel88.setText("Hotel Name:");
+        jPanel125.add(jLabel88);
+
+        hotelName5.setText("example");
+        jPanel125.add(hotelName5);
+
+        jPanel122.add(jPanel125);
+
+        jPanel126.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel89.setText("Room Type:");
+        jPanel126.add(jLabel89);
+
+        roomType5.setText("example");
+        jPanel126.add(roomType5);
+
+        jPanel122.add(jPanel126);
+
+        jPanel127.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel90.setText("Flight Price:");
+        jPanel127.add(jLabel90);
+
+        flightPrice5.setText("example");
+        jPanel127.add(flightPrice5);
+
+        jPanel122.add(jPanel127);
+
+        jPanel114.add(jPanel122);
+
+        jPanel106.add(jPanel114, java.awt.BorderLayout.CENTER);
+
+        offer5.add(jPanel106, java.awt.BorderLayout.CENTER);
+
+        jScrollPane6.setViewportView(offer5);
+
+        offerGroup3.add(jScrollPane6);
+
+        offer6.setBackground(new java.awt.Color(255, 255, 255));
+        offer6.setLayout(new java.awt.BorderLayout());
+
+        jPanel128.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel128.setMinimumSize(new java.awt.Dimension(100, 200));
+
+        jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/design_imgs/france.jpg"))); // NOI18N
+        jLabel91.setMaximumSize(new java.awt.Dimension(1000, 1000));
+        jLabel91.setMinimumSize(new java.awt.Dimension(265, 200));
+        jLabel91.setPreferredSize(new java.awt.Dimension(265, 200));
+        jPanel128.add(jLabel91);
+
+        offer6.add(jPanel128, java.awt.BorderLayout.PAGE_START);
+
+        jPanel129.setLayout(new java.awt.BorderLayout());
+
+        jPanel130.setMinimumSize(new java.awt.Dimension(280, 150));
+        jPanel130.setPreferredSize(new java.awt.Dimension(280, 150));
+        jPanel130.setLayout(new java.awt.BorderLayout());
+
+        jPanel131.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel92.setText("Offer description");
+        jPanel131.add(jLabel92);
+
+        offerDescriptionText6.setColumns(20);
+        offerDescriptionText6.setRows(5);
+        jScrollPane13.setViewportView(offerDescriptionText6);
+
+        jPanel131.add(jScrollPane13);
+
+        jPanel130.add(jPanel131, java.awt.BorderLayout.PAGE_START);
+
+        jPanel132.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel133.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel133.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel133.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel134.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel134.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel134.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel134.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        editButton5.setText("     EDIT OFFER");
+        editButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        editButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                editButton5MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                editButton5MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                editButton5MouseExited(evt);
+            }
+        });
+        jPanel134.add(editButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 100, 30));
+
+        jPanel133.add(jPanel134);
+
+        jPanel132.add(jPanel133);
+
+        jPanel135.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel135.setMinimumSize(new java.awt.Dimension(140, 35));
+        jPanel135.setPreferredSize(new java.awt.Dimension(140, 35));
+
+        jPanel136.setBackground(new java.awt.Color(44, 159, 186));
+        jPanel136.setMinimumSize(new java.awt.Dimension(100, 30));
+        jPanel136.setPreferredSize(new java.awt.Dimension(100, 30));
+        jPanel136.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        deleteButton5.setText("  DELETE OFFER");
+        deleteButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        deleteButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                deleteButton5MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                deleteButton5MouseExited(evt);
+            }
+        });
+        jPanel136.add(deleteButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 1, 100, 30));
+
+        jPanel135.add(jPanel136);
+
+        jPanel132.add(jPanel135);
+
+        jPanel130.add(jPanel132, java.awt.BorderLayout.CENTER);
+
+        jPanel129.add(jPanel130, java.awt.BorderLayout.PAGE_END);
+
+        jPanel137.setLayout(new java.awt.GridLayout(1, 2));
+
+        jPanel138.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel138.setLayout(new java.awt.GridLayout(6, 0));
+
+        jPanel139.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel93.setText("Price:");
+        jPanel139.add(jLabel93);
+
+        generalPrice6.setText("example");
+        jPanel139.add(generalPrice6);
+
+        jPanel138.add(jPanel139);
+
+        jPanel140.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel94.setText("From:");
+        jPanel140.add(jLabel94);
+
+        from6.setText("example");
+        jPanel140.add(from6);
+
+        jPanel138.add(jPanel140);
+
+        jPanel141.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel95.setText("Date From:");
+        jPanel141.add(jLabel95);
+
+        dateFrom6.setText("example");
+        jPanel141.add(dateFrom6);
+
+        jPanel138.add(jPanel141);
+
+        jPanel142.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel96.setText("Hotel Address:");
+        jPanel142.add(jLabel96);
+
+        hotelAddress6.setText("example");
+        jPanel142.add(hotelAddress6);
+
+        jPanel138.add(jPanel142);
+
+        jPanel143.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel97.setText("Airplan Name:");
+        jPanel143.add(jLabel97);
+
+        airlineName6.setText("example");
+        jPanel143.add(airlineName6);
+
+        jPanel138.add(jPanel143);
+
+        jPanel144.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel98.setText("Flight Class:");
+        jPanel144.add(jLabel98);
+
+        flightClass6.setText("example");
+        jPanel144.add(flightClass6);
+
+        jPanel138.add(jPanel144);
+
+        jPanel137.add(jPanel138);
+
+        jPanel145.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel145.setLayout(new java.awt.GridLayout(5, 0));
+
+        jPanel146.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel99.setText("destination:");
+        jPanel146.add(jLabel99);
+
+        destination6.setText("example");
+        jPanel146.add(destination6);
+
+        jPanel145.add(jPanel146);
+
+        jPanel147.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel100.setText("Date To:");
+        jPanel147.add(jLabel100);
+
+        dateTo6.setText("example");
+        jPanel147.add(dateTo6);
+
+        jPanel145.add(jPanel147);
+
+        jPanel148.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel101.setText("Hotel Name:");
+        jPanel148.add(jLabel101);
+
+        hotelName6.setText("example");
+        jPanel148.add(hotelName6);
+
+        jPanel145.add(jPanel148);
+
+        jPanel149.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel102.setText("Room Type:");
+        jPanel149.add(jLabel102);
+
+        roomType6.setText("example");
+        jPanel149.add(roomType6);
+
+        jPanel145.add(jPanel149);
+
+        jPanel150.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel103.setText("Flight Price:");
+        jPanel150.add(jLabel103);
+
+        flightPrice6.setText("example");
+        jPanel150.add(flightPrice6);
+
+        jPanel145.add(jPanel150);
+
+        jPanel137.add(jPanel145);
+
+        jPanel129.add(jPanel137, java.awt.BorderLayout.CENTER);
+
+        offer6.add(jPanel129, java.awt.BorderLayout.CENTER);
+
+        jScrollPane7.setViewportView(offer6);
+
+        offerGroup3.add(jScrollPane7);
 
         offersPanel.add(offerGroup3);
 
@@ -1538,6 +3320,161 @@ public class manager_page extends javax.swing.JFrame {
         addAirportFrame.setLocationRelativeTo(null);
     }//GEN-LAST:event_addAirportButtonMouseClicked
 
+    private void deleteButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButtonMouseEntered
+        changecolor(jPanel31, new Color(204,204,204));
+    }//GEN-LAST:event_deleteButtonMouseEntered
+
+    private void deleteButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButtonMouseExited
+        changecolor(jPanel31, new Color(44,159,186));
+    }//GEN-LAST:event_deleteButtonMouseExited
+
+    private void editButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButtonMouseEntered
+        changecolor(jPanel30, new Color(204,204,204));
+    }//GEN-LAST:event_editButtonMouseEntered
+
+    private void editButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButtonMouseExited
+        changecolor(jPanel30, new Color(44,159,186));
+    }//GEN-LAST:event_editButtonMouseExited
+
+    private void editButton1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton1MouseEntered
+         changecolor(jPanel42, new Color(204,204,204));
+    }//GEN-LAST:event_editButton1MouseEntered
+
+    private void editButton1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton1MouseExited
+        changecolor(jPanel42, new Color(44,159,186));
+    }//GEN-LAST:event_editButton1MouseExited
+
+    private void deleteButton1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton1MouseEntered
+       changecolor(jPanel44, new Color(204,204,204));
+    }//GEN-LAST:event_deleteButton1MouseEntered
+
+    private void deleteButton1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton1MouseExited
+        changecolor(jPanel44, new Color(44,159,186));
+    }//GEN-LAST:event_deleteButton1MouseExited
+
+    private void editButton2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton2MouseEntered
+        changecolor(jPanel65, new Color(204,204,204));
+    }//GEN-LAST:event_editButton2MouseEntered
+
+    private void editButton2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton2MouseExited
+        changecolor(jPanel65, new Color(44,159,186));
+    }//GEN-LAST:event_editButton2MouseExited
+
+    private void deleteButton2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton2MouseEntered
+        changecolor(jPanel67, new Color(204,204,204));
+    }//GEN-LAST:event_deleteButton2MouseEntered
+
+    private void deleteButton2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton2MouseExited
+        changecolor(jPanel67, new Color(44,159,186));
+    }//GEN-LAST:event_deleteButton2MouseExited
+
+    private void editButton3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton3MouseEntered
+        changecolor(jPanel88, new Color(204,204,204));
+    }//GEN-LAST:event_editButton3MouseEntered
+
+    private void editButton3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton3MouseExited
+       changecolor(jPanel88, new Color(44,159,186));
+    }//GEN-LAST:event_editButton3MouseExited
+
+    private void deleteButton3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton3MouseEntered
+        changecolor(jPanel90, new Color(204,204,204));
+    }//GEN-LAST:event_deleteButton3MouseEntered
+
+    private void deleteButton3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton3MouseExited
+        changecolor(jPanel90, new Color(44,159,186));
+    }//GEN-LAST:event_deleteButton3MouseExited
+
+    private void editButton4MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton4MouseEntered
+        changecolor(jPanel111, new Color(204,204,204));
+    }//GEN-LAST:event_editButton4MouseEntered
+
+    private void editButton4MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton4MouseExited
+        changecolor(jPanel111, new Color(44,159,186));
+    }//GEN-LAST:event_editButton4MouseExited
+
+    private void deleteButton4MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton4MouseEntered
+        changecolor(jPanel113, new Color(204,204,204));
+    }//GEN-LAST:event_deleteButton4MouseEntered
+
+    private void deleteButton4MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton4MouseExited
+        changecolor(jPanel113, new Color(44,159,186));
+    }//GEN-LAST:event_deleteButton4MouseExited
+
+    private void editButton5MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton5MouseEntered
+        changecolor(jPanel134, new Color(204,204,204));
+    }//GEN-LAST:event_editButton5MouseEntered
+
+    private void editButton5MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton5MouseExited
+        changecolor(jPanel134, new Color(44,159,186));
+    }//GEN-LAST:event_editButton5MouseExited
+
+    private void deleteButton5MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton5MouseEntered
+        changecolor(jPanel136, new Color(204,204,204));
+    }//GEN-LAST:event_deleteButton5MouseEntered
+
+    private void deleteButton5MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_deleteButton5MouseExited
+        changecolor(jPanel136, new Color(44,159,186));
+    }//GEN-LAST:event_deleteButton5MouseExited
+
+    private void close3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_close3MouseClicked
+        editOffer.setVisible(false);
+    }//GEN-LAST:event_close3MouseClicked
+
+    private void close3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_close3MouseEntered
+        changecolor(closePanel3, new Color(255,0,0));
+        
+    }//GEN-LAST:event_close3MouseEntered
+
+    private void close3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_close3MouseExited
+        changecolor(closePanel3, new Color(44,159,186));
+    }//GEN-LAST:event_close3MouseExited
+
+    private void AdditionalserviceidText1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdditionalserviceidText1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AdditionalserviceidText1ActionPerformed
+
+    private void dateToText1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dateToText1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dateToText1ActionPerformed
+
+    private void editOfferButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editOfferButtonMouseEntered
+        changecolor(editOfferPanel, new Color(204,204,204));
+    }//GEN-LAST:event_editOfferButtonMouseEntered
+
+    private void editOfferButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editOfferButtonMouseExited
+        changecolor(editOfferPanel, new Color(44,159,186));
+    }//GEN-LAST:event_editOfferButtonMouseExited
+
+    private void editButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButtonMouseClicked
+        editOffer.setVisible(true);
+        editOffer.setLocationRelativeTo(null);
+    }//GEN-LAST:event_editButtonMouseClicked
+
+    private void editButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton1MouseClicked
+        editOffer.setVisible(true);
+         editOffer.setLocationRelativeTo(null);
+    }//GEN-LAST:event_editButton1MouseClicked
+
+    private void editButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton2MouseClicked
+        editOffer.setVisible(true);
+         editOffer.setLocationRelativeTo(null);
+    }//GEN-LAST:event_editButton2MouseClicked
+
+    private void editButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton3MouseClicked
+        editOffer.setVisible(true);
+         editOffer.setLocationRelativeTo(null);
+    }//GEN-LAST:event_editButton3MouseClicked
+
+    private void editButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton4MouseClicked
+        editOffer.setVisible(true);
+         editOffer.setLocationRelativeTo(null);
+    }//GEN-LAST:event_editButton4MouseClicked
+
+    private void editButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editButton5MouseClicked
+        editOffer.setVisible(true);
+         editOffer.setLocationRelativeTo(null);
+    }//GEN-LAST:event_editButton5MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -1576,8 +3513,11 @@ public class manager_page extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField AdditionalserviceidText;
+    private javax.swing.JTextField AdditionalserviceidText1;
     private javax.swing.JTextField DestinationText;
+    private javax.swing.JTextField DestinationText1;
     private javax.swing.JTextField FromText;
+    private javax.swing.JTextField FromText1;
     private javax.swing.JLabel IconMenu;
     private javax.swing.JTextField SSQ1Text;
     private javax.swing.JTextField SSQ2Text;
@@ -1596,30 +3536,126 @@ public class manager_page extends javax.swing.JFrame {
     private javax.swing.JLabel addOfferButton;
     private javax.swing.JPanel addOfferPanel;
     private javax.swing.JPanel addofferPanel;
+    private javax.swing.JLabel airlineName1;
+    private javax.swing.JLabel airlineName2;
+    private javax.swing.JLabel airlineName3;
+    private javax.swing.JLabel airlineName4;
+    private javax.swing.JLabel airlineName5;
+    private javax.swing.JLabel airlineName6;
     private javax.swing.JTextField airportAddressText;
     private javax.swing.JComboBox<String> airportNameList;
+    private javax.swing.JComboBox<String> airportNameList1;
     private javax.swing.JTextField airportNameText;
     private javax.swing.JLabel close;
     private javax.swing.JLabel close1;
     private javax.swing.JLabel close2;
+    private javax.swing.JLabel close3;
     private javax.swing.JPanel closeButton;
     private javax.swing.JLabel closeIcon;
     private javax.swing.JPanel closePanel;
     private javax.swing.JPanel closePanel1;
     private javax.swing.JPanel closePanel2;
+    private javax.swing.JPanel closePanel3;
+    private javax.swing.JLabel dateFrom1;
+    private javax.swing.JLabel dateFrom2;
+    private javax.swing.JLabel dateFrom3;
+    private javax.swing.JLabel dateFrom4;
+    private javax.swing.JLabel dateFrom5;
+    private javax.swing.JLabel dateFrom6;
     private javax.swing.JFormattedTextField dateFromText;
+    private javax.swing.JFormattedTextField dateFromText1;
+    private javax.swing.JLabel dateTo1;
+    private javax.swing.JLabel dateTo2;
+    private javax.swing.JLabel dateTo3;
+    private javax.swing.JLabel dateTo4;
+    private javax.swing.JLabel dateTo5;
+    private javax.swing.JLabel dateTo6;
     private javax.swing.JFormattedTextField dateToText;
+    private javax.swing.JFormattedTextField dateToText1;
+    private javax.swing.JLabel deleteButton;
+    private javax.swing.JLabel deleteButton1;
+    private javax.swing.JLabel deleteButton2;
+    private javax.swing.JLabel deleteButton3;
+    private javax.swing.JLabel deleteButton4;
+    private javax.swing.JLabel deleteButton5;
+    private javax.swing.JLabel destination1;
+    private javax.swing.JLabel destination2;
+    private javax.swing.JLabel destination3;
+    private javax.swing.JLabel destination4;
+    private javax.swing.JLabel destination5;
+    private javax.swing.JLabel destination6;
+    private javax.swing.JLabel editButton;
+    private javax.swing.JLabel editButton1;
+    private javax.swing.JLabel editButton2;
+    private javax.swing.JLabel editButton3;
+    private javax.swing.JLabel editButton4;
+    private javax.swing.JLabel editButton5;
+    private javax.swing.JFrame editOffer;
+    private javax.swing.JLabel editOfferButton;
+    private javax.swing.JPanel editOfferPanel;
+    private javax.swing.JLabel flightClass1;
+    private javax.swing.JLabel flightClass2;
+    private javax.swing.JLabel flightClass3;
+    private javax.swing.JLabel flightClass4;
+    private javax.swing.JLabel flightClass5;
+    private javax.swing.JLabel flightClass6;
     private javax.swing.JComboBox<String> flightClassList;
+    private javax.swing.JComboBox<String> flightClassList1;
+    private javax.swing.JLabel flightPrice1;
+    private javax.swing.JLabel flightPrice2;
+    private javax.swing.JLabel flightPrice3;
+    private javax.swing.JLabel flightPrice4;
+    private javax.swing.JLabel flightPrice5;
+    private javax.swing.JLabel flightPrice6;
+    private javax.swing.JLabel from1;
+    private javax.swing.JLabel from2;
+    private javax.swing.JLabel from3;
+    private javax.swing.JLabel from4;
+    private javax.swing.JLabel from5;
+    private javax.swing.JLabel from6;
+    private javax.swing.JLabel generalPrice1;
+    private javax.swing.JLabel generalPrice2;
+    private javax.swing.JLabel generalPrice3;
+    private javax.swing.JLabel generalPrice4;
+    private javax.swing.JLabel generalPrice5;
+    private javax.swing.JLabel generalPrice6;
     private javax.swing.JPanel header;
     private javax.swing.JPanel headerForMain;
     private javax.swing.JTextField hotelAdderssText;
+    private javax.swing.JLabel hotelAddress1;
+    private javax.swing.JLabel hotelAddress2;
+    private javax.swing.JLabel hotelAddress3;
+    private javax.swing.JLabel hotelAddress4;
+    private javax.swing.JLabel hotelAddress5;
+    private javax.swing.JLabel hotelAddress6;
+    private javax.swing.JLabel hotelName1;
+    private javax.swing.JLabel hotelName2;
+    private javax.swing.JLabel hotelName3;
+    private javax.swing.JLabel hotelName4;
+    private javax.swing.JLabel hotelName5;
+    private javax.swing.JLabel hotelName6;
     private javax.swing.JComboBox<String> hotelNameList;
+    private javax.swing.JComboBox<String> hotelNameList1;
     private javax.swing.JTextField hotelNameText;
     private javax.swing.JTextField hotelPriceText;
     private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
+    private javax.swing.JLabel jLabel111;
+    private javax.swing.JLabel jLabel112;
+    private javax.swing.JLabel jLabel113;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
@@ -1641,25 +3677,246 @@ public class manager_page extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel100;
+    private javax.swing.JPanel jPanel101;
+    private javax.swing.JPanel jPanel102;
+    private javax.swing.JPanel jPanel103;
+    private javax.swing.JPanel jPanel104;
+    private javax.swing.JPanel jPanel105;
+    private javax.swing.JPanel jPanel106;
+    private javax.swing.JPanel jPanel107;
+    private javax.swing.JPanel jPanel108;
+    private javax.swing.JPanel jPanel109;
     private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel110;
+    private javax.swing.JPanel jPanel111;
+    private javax.swing.JPanel jPanel112;
+    private javax.swing.JPanel jPanel113;
+    private javax.swing.JPanel jPanel114;
+    private javax.swing.JPanel jPanel115;
+    private javax.swing.JPanel jPanel116;
+    private javax.swing.JPanel jPanel117;
+    private javax.swing.JPanel jPanel118;
+    private javax.swing.JPanel jPanel119;
     private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel120;
+    private javax.swing.JPanel jPanel121;
+    private javax.swing.JPanel jPanel122;
+    private javax.swing.JPanel jPanel123;
+    private javax.swing.JPanel jPanel124;
+    private javax.swing.JPanel jPanel125;
+    private javax.swing.JPanel jPanel126;
+    private javax.swing.JPanel jPanel127;
+    private javax.swing.JPanel jPanel128;
+    private javax.swing.JPanel jPanel129;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel130;
+    private javax.swing.JPanel jPanel131;
+    private javax.swing.JPanel jPanel132;
+    private javax.swing.JPanel jPanel133;
+    private javax.swing.JPanel jPanel134;
+    private javax.swing.JPanel jPanel135;
+    private javax.swing.JPanel jPanel136;
+    private javax.swing.JPanel jPanel137;
+    private javax.swing.JPanel jPanel138;
+    private javax.swing.JPanel jPanel139;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel140;
+    private javax.swing.JPanel jPanel141;
+    private javax.swing.JPanel jPanel142;
+    private javax.swing.JPanel jPanel143;
+    private javax.swing.JPanel jPanel144;
+    private javax.swing.JPanel jPanel145;
+    private javax.swing.JPanel jPanel146;
+    private javax.swing.JPanel jPanel147;
+    private javax.swing.JPanel jPanel148;
+    private javax.swing.JPanel jPanel149;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel150;
+    private javax.swing.JPanel jPanel151;
+    private javax.swing.JPanel jPanel152;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
+    private javax.swing.JPanel jPanel37;
+    private javax.swing.JPanel jPanel38;
+    private javax.swing.JPanel jPanel39;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel40;
+    private javax.swing.JPanel jPanel41;
+    private javax.swing.JPanel jPanel42;
+    private javax.swing.JPanel jPanel43;
+    private javax.swing.JPanel jPanel44;
+    private javax.swing.JPanel jPanel45;
+    private javax.swing.JPanel jPanel46;
+    private javax.swing.JPanel jPanel47;
+    private javax.swing.JPanel jPanel48;
+    private javax.swing.JPanel jPanel49;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel50;
+    private javax.swing.JPanel jPanel51;
+    private javax.swing.JPanel jPanel52;
+    private javax.swing.JPanel jPanel53;
+    private javax.swing.JPanel jPanel54;
+    private javax.swing.JPanel jPanel55;
+    private javax.swing.JPanel jPanel56;
+    private javax.swing.JPanel jPanel57;
+    private javax.swing.JPanel jPanel58;
+    private javax.swing.JPanel jPanel59;
     private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel60;
+    private javax.swing.JPanel jPanel61;
+    private javax.swing.JPanel jPanel62;
+    private javax.swing.JPanel jPanel63;
+    private javax.swing.JPanel jPanel64;
+    private javax.swing.JPanel jPanel65;
+    private javax.swing.JPanel jPanel66;
+    private javax.swing.JPanel jPanel67;
+    private javax.swing.JPanel jPanel68;
+    private javax.swing.JPanel jPanel69;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel70;
+    private javax.swing.JPanel jPanel71;
+    private javax.swing.JPanel jPanel72;
+    private javax.swing.JPanel jPanel73;
+    private javax.swing.JPanel jPanel74;
+    private javax.swing.JPanel jPanel75;
+    private javax.swing.JPanel jPanel76;
+    private javax.swing.JPanel jPanel77;
+    private javax.swing.JPanel jPanel78;
+    private javax.swing.JPanel jPanel79;
     private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel80;
+    private javax.swing.JPanel jPanel81;
+    private javax.swing.JPanel jPanel82;
+    private javax.swing.JPanel jPanel83;
+    private javax.swing.JPanel jPanel84;
+    private javax.swing.JPanel jPanel85;
+    private javax.swing.JPanel jPanel86;
+    private javax.swing.JPanel jPanel87;
+    private javax.swing.JPanel jPanel88;
+    private javax.swing.JPanel jPanel89;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JPanel jPanel90;
+    private javax.swing.JPanel jPanel91;
+    private javax.swing.JPanel jPanel92;
+    private javax.swing.JPanel jPanel93;
+    private javax.swing.JPanel jPanel94;
+    private javax.swing.JPanel jPanel95;
+    private javax.swing.JPanel jPanel96;
+    private javax.swing.JPanel jPanel97;
+    private javax.swing.JPanel jPanel98;
+    private javax.swing.JPanel jPanel99;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JPanel linemenu;
     private javax.swing.JPanel main;
     private javax.swing.JPanel masseges;
@@ -1673,13 +3930,20 @@ public class manager_page extends javax.swing.JFrame {
     private javax.swing.JPanel minButton;
     private javax.swing.JLabel minIcon;
     private javax.swing.JPanel minMaxCloseIcon;
+    private javax.swing.JPanel offer1;
+    private javax.swing.JPanel offer2;
+    private javax.swing.JPanel offer3;
     private javax.swing.JPanel offer4;
     private javax.swing.JPanel offer5;
     private javax.swing.JPanel offer6;
-    private javax.swing.JPanel offer7;
-    private javax.swing.JPanel offer8;
-    private javax.swing.JPanel offer9;
+    private javax.swing.JTextArea offerDescriptionText1;
+    private javax.swing.JTextArea offerDescriptionText2;
+    private javax.swing.JTextArea offerDescriptionText3;
+    private javax.swing.JTextArea offerDescriptionText4;
+    private javax.swing.JTextArea offerDescriptionText5;
+    private javax.swing.JTextArea offerDescriptionText6;
     private javax.swing.JTextArea offerDescriptionTextArea;
+    private javax.swing.JTextArea offerDescriptionTextArea1;
     private javax.swing.JPanel offerGroup2;
     private javax.swing.JPanel offerGroup3;
     private javax.swing.JPanel offersPanel;
@@ -1688,8 +3952,16 @@ public class manager_page extends javax.swing.JFrame {
     private javax.swing.JLabel profilePicIcon;
     private javax.swing.JPanel profilePicpanel;
     private javax.swing.JPanel profilepiclayout;
+    private javax.swing.JLabel roomType1;
+    private javax.swing.JLabel roomType2;
+    private javax.swing.JLabel roomType3;
+    private javax.swing.JLabel roomType4;
+    private javax.swing.JLabel roomType5;
+    private javax.swing.JLabel roomType6;
     private javax.swing.JComboBox<String> roomTypeList;
+    private javax.swing.JComboBox<String> roomTypeList1;
     private javax.swing.JTextField roomTypeText;
+    private javax.swing.JScrollPane scroll1;
     private javax.swing.JComboBox<String> searchAbout;
     private javax.swing.JPanel searchLayout;
     private javax.swing.JPanel searchPosition;
