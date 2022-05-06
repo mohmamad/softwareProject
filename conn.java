@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package user_design;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,7 +20,7 @@ public class conn {
       Connection con = null;
         try {
            DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
-             con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","C##fanan2","0000");
+             con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","C##fanan2","0000");
            
             
         } catch (Exception ex) {
